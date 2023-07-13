@@ -67,6 +67,9 @@ THE_PLAN_BOOT_DIR_PATH="${THE_PLAN_ASSET_DIR_PATH}/${THE_PLAN_BOOT_DIR_NAME}"
 THE_PLAN_HOOK_DIR_NAME="hook"
 THE_PLAN_HOOK_DIR_PATH="${THE_PLAN_ASSET_DIR_PATH}/${THE_PLAN_HOOK_DIR_NAME}"
 
+THE_PLAN_INSTALLER_DIR_NAME="installer"
+THE_PLAN_INSTALLER_DIR_PATH="${THE_PLAN_ASSET_DIR_PATH}/${THE_PLAN_INSTALLER_DIR_NAME}"
+
 THE_PLAN_BUILD_DIR_NAME="build"
 THE_PLAN_BUILD_DIR_PATH="${THE_PLAN_ASSET_DIR_PATH}/${THE_PLAN_BUILD_DIR_NAME}"
 
@@ -516,6 +519,15 @@ mod_iso_profile_overlay () {
 
 	mod_overlay_hook
 
+
+	##
+	## ## installer
+	##
+
+	mod_overlay_installer
+
+
+
 	return 0
 
 
@@ -647,6 +659,31 @@ mod_overlay_hook_normal () {
 	util_error_echo
 	util_error_echo "cp -rf ${THE_PLAN_HOOK_DIR_PATH}/. ${THE_PLAN_PROFILE_HOOKS_DIR_PATH}/normal"
 	cp -rf "${THE_PLAN_HOOK_DIR_PATH}/." "${THE_PLAN_PROFILE_HOOKS_DIR_PATH}/normal"
+
+}
+
+##
+### Tail: Model / Overlay / hook
+################################################################################
+
+
+
+
+################################################################################
+### Head: Model / Overlay / installer
+##
+
+mod_overlay_installer () {
+
+	mod_overlay_installer_calamares
+
+}
+
+mod_overlay_installer_calamares () {
+
+	util_error_echo
+	util_error_echo "cp -rf ${THE_PLAN_INSTALLER_DIR_PATH}/calamares/. ${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}/etc/calamares"
+	cp -rf "${THE_PLAN_INSTALLER_DIR_PATH}/calamares/." "${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}/etc/calamares"
 
 }
 

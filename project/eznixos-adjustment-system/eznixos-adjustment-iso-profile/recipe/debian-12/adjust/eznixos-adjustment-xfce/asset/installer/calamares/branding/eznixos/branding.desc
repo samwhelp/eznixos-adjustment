@@ -1,0 +1,31 @@
+---
+componentName:   eznixos
+welcomeStyleCalamares: true
+
+strings:
+    productName:         eznixOS
+    shortProductName:    eznixOS
+    version:             12X
+    shortVersion:        12X
+    versionedName:       eznixOS
+    shortVersionedName:  eznixOS
+    bootloaderEntryName: eznixos
+    productUrl:          https://sourceforge.net/projects/eznixos/
+#   supportUrl:          https://sourceforge.net/projects/eznixos/
+#   knownIssuesUrl:      https://sourceforge.net/projects/eznixos/
+#   releaseNotesUrl:     https://sourceforge.net/projects/eznixos/
+#   donateUrl:           https://sourceforge.net/projects/eznixos/   
+
+images:
+    productLogo:         "eznixos-logo.png"
+    productIcon:         "eznixos-logo.png"
+    productWallpaper:    "wallpaper.png"
+    productWelcome:      "slide_cs.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"
+   sidebarTextHighlight: "#D35400"
