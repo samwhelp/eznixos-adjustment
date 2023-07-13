@@ -407,7 +407,7 @@ mod_iso_profile_prepare () {
 	util_error_echo
 
 	mod_iso_profile_base
-	#mod_iso_profile_overlay
+	mod_iso_profile_overlay
 
 
 }
@@ -493,6 +493,8 @@ mod_iso_profile_overlay () {
 
 	mod_overlay_base
 
+	return 0
+
 
 	##
 	## ## bootloader
@@ -557,7 +559,7 @@ mod_iso_profile_overlay () {
 
 mod_overlay_base () {
 
-	mod_overlay_pre_remove
+	#mod_overlay_pre_remove
 	mod_overlay_by_dir
 
 }
