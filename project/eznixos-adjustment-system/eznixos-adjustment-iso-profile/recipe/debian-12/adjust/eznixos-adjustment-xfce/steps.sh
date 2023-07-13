@@ -52,6 +52,9 @@ THE_PLAN_PROFILE_BOOTLOADERS_DIR_PATH="${THE_PLAN_PROFILE_CONFIG_DIR_PATH}/${THE
 THE_PLAN_PROFILE_HOOKS_DIR_NAME="hooks"
 THE_PLAN_PROFILE_HOOKS_DIR_PATH="${THE_PLAN_PROFILE_CONFIG_DIR_PATH}/${THE_PLAN_PROFILE_HOOKS_DIR_NAME}"
 
+THE_PLAN_PROFILE_PACKAGES_DIR_NAME="package-lists"
+THE_PLAN_PROFILE_PACKAGES_DIR_PATH="${THE_PLAN_PROFILE_CONFIG_DIR_PATH}/${THE_PLAN_PROFILE_PACKAGES_DIR_NAME}"
+
 
 
 
@@ -527,6 +530,12 @@ mod_iso_profile_overlay () {
 	mod_overlay_installer
 
 
+	##
+	## ## package
+	##
+
+	mod_overlay_package
+
 
 	return 0
 
@@ -543,13 +552,6 @@ mod_iso_profile_overlay () {
 	##
 
 	mod_overlay_profiledef
-
-
-	##
-	## ## package
-	##
-
-	mod_overlay_package
 
 
 	##
@@ -692,6 +694,29 @@ mod_overlay_installer_calamares () {
 ################################################################################
 
 
+
+
+################################################################################
+### Head: Model / Overlay / package
+##
+
+mod_overlay_package () {
+
+	mod_overlay_package_list
+
+}
+
+mod_overlay_package_list () {
+
+	util_error_echo
+	util_error_echo "cp -rf ${THE_PLAN_PACKAGE_DIR_PATH}/xfce/. ${THE_PLAN_PROFILE_PACKAGES_DIR_PATH}"
+	cp -rf "${THE_PLAN_PACKAGE_DIR_PATH}/xfce/." "${THE_PLAN_PROFILE_PACKAGES_DIR_PATH}"
+
+}
+
+##
+### Tail: Model / Overlay / hook
+################################################################################
 
 
 ################################################################################
