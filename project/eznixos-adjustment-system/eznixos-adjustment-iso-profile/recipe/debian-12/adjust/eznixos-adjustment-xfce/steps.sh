@@ -49,6 +49,9 @@ THE_PLAN_PROFILE_ROOTFS_DIR_PATH="${THE_PLAN_PROFILE_CONFIG_DIR_PATH}/${THE_PLAN
 THE_PLAN_PROFILE_BOOTLOADERS_DIR_NAME="bootloaders"
 THE_PLAN_PROFILE_BOOTLOADERS_DIR_PATH="${THE_PLAN_PROFILE_CONFIG_DIR_PATH}/${THE_PLAN_PROFILE_BOOTLOADERS_DIR_NAME}"
 
+THE_PLAN_PROFILE_HOOKS_DIR_NAME="hooks"
+THE_PLAN_PROFILE_HOOKS_DIR_PATH="${THE_PLAN_PROFILE_CONFIG_DIR_PATH}/${THE_PLAN_PROFILE_HOOKS_DIR_NAME}"
+
 
 
 
@@ -60,6 +63,9 @@ THE_PLAN_OVERLAY_DIR_PATH="${THE_PLAN_ASSET_DIR_PATH}/${THE_PLAN_OVERLAY_DIR_NAM
 
 THE_PLAN_BOOT_DIR_NAME="boot"
 THE_PLAN_BOOT_DIR_PATH="${THE_PLAN_ASSET_DIR_PATH}/${THE_PLAN_BOOT_DIR_NAME}"
+
+THE_PLAN_HOOK_DIR_NAME="hook"
+THE_PLAN_HOOK_DIR_PATH="${THE_PLAN_ASSET_DIR_PATH}/${THE_PLAN_HOOK_DIR_NAME}"
 
 THE_PLAN_BUILD_DIR_NAME="build"
 THE_PLAN_BUILD_DIR_PATH="${THE_PLAN_ASSET_DIR_PATH}/${THE_PLAN_BUILD_DIR_NAME}"
@@ -503,6 +509,13 @@ mod_iso_profile_overlay () {
 
 	mod_overlay_bootloader
 
+
+	##
+	## ## hook
+	##
+
+	mod_overlay_hook
+
 	return 0
 
 
@@ -605,6 +618,40 @@ mod_overlay_bootloader () {
 
 ##
 ### Tail: Model / Overlay / boot loader
+################################################################################
+
+
+
+
+################################################################################
+### Head: Model / Overlay / hook
+##
+
+mod_overlay_hook () {
+
+	mod_overlay_hook_pre_remove
+	mod_overlay_hook_normal
+
+}
+
+mod_overlay_hook_pre_remove () {
+
+	util_error_echo
+	util_error_echo "rm -f ${THE_PLAN_PROFILE_HOOKS_DIR_PATH}/normal/9000-remove-gnome-icon-cache.hook.chroot"
+	rm -f "${THE_PLAN_PROFILE_HOOKS_DIR_PATH}/normal/9000-remove-gnome-icon-cache.hook.chroot"
+
+}
+
+mod_overlay_hook_normal () {
+
+	util_error_echo
+	util_error_echo "cp -rf ${THE_PLAN_HOOK_DIR_PATH}/. ${THE_PLAN_PROFILE_HOOKS_DIR_PATH}/normal"
+	cp -rf "${THE_PLAN_HOOK_DIR_PATH}/." "${THE_PLAN_PROFILE_HOOKS_DIR_PATH}/normal"
+
+}
+
+##
+### Tail: Model / Overlay / hook
 ################################################################################
 
 
