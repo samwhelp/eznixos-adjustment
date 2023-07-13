@@ -46,6 +46,9 @@ THE_PLAN_PROFILE_CONFIG_DIR_PATH="${THE_PLAN_PROFILE_DIR_PATH}/${THE_PLAN_PROFIL
 THE_PLAN_PROFILE_ROOTFS_DIR_NAME="includes.chroot"
 THE_PLAN_PROFILE_ROOTFS_DIR_PATH="${THE_PLAN_PROFILE_CONFIG_DIR_PATH}/${THE_PLAN_PROFILE_ROOTFS_DIR_NAME}"
 
+THE_PLAN_PROFILE_BOOTLOADERS_DIR_NAME="bootloaders"
+THE_PLAN_PROFILE_BOOTLOADERS_DIR_PATH="${THE_PLAN_PROFILE_CONFIG_DIR_PATH}/${THE_PLAN_PROFILE_BOOTLOADERS_DIR_NAME}"
+
 
 
 
@@ -493,14 +496,14 @@ mod_iso_profile_overlay () {
 
 	mod_overlay_base
 
-	return 0
-
 
 	##
 	## ## bootloader
 	##
 
 	mod_overlay_bootloader
+
+	return 0
 
 
 	##
@@ -583,6 +586,25 @@ mod_overlay_by_dir () {
 
 ##
 ### Tail: Model / Overlay / by_dir
+################################################################################
+
+
+
+################################################################################
+### Head: Model / Overlay / boot loader
+##
+
+mod_overlay_bootloader () {
+
+	util_error_echo
+	util_error_echo "cp -rf ${THE_PLAN_BOOT_DIR_PATH}/. ${THE_PLAN_PROFILE_BOOTLOADERS_DIR_PATH}"
+	cp -rf "${THE_PLAN_BOOT_DIR_PATH}/." "${THE_PLAN_PROFILE_BOOTLOADERS_DIR_PATH}"
+
+}
+
+
+##
+### Tail: Model / Overlay / boot loader
 ################################################################################
 
 
