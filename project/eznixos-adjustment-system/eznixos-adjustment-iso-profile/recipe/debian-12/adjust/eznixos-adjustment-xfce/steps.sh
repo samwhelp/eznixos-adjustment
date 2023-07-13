@@ -336,8 +336,19 @@ mod_iso_make_start_create_iso () {
 	#sleep 5
 	#return 0
 
-	util_error_echo "mkarchiso -w ${THE_PLAN_WORK_DIR_PATH} -o ${THE_PLAN_OUT_DIR_PATH} -v ${THE_PLAN_PROFILE_DIR_PATH}"
-	mkarchiso -w "${THE_PLAN_WORK_DIR_PATH}" -o "${THE_PLAN_OUT_DIR_PATH}" -v "${THE_PLAN_PROFILE_DIR_PATH}"
+	util_error_echo
+	util_error_echo "cd ${THE_PLAN_PROFILE_DIR_PATH}"
+	cd "${THE_PLAN_PROFILE_DIR_PATH}"
+
+
+	util_error_echo
+	util_error_echo "lb build"
+	lb build
+
+
+	util_error_echo
+	util_error_echo "cd ${OLDPWD}"
+	cd "${OLDPWD}"
 
 
 	util_error_echo
@@ -368,7 +379,7 @@ mod_iso_make_copy_to_store () {
 mod_iso_build () {
 
 	mod_iso_make_prepare
-	#mod_iso_make_start
+	mod_iso_make_start
 	mod_iso_make_finish
 
 }
