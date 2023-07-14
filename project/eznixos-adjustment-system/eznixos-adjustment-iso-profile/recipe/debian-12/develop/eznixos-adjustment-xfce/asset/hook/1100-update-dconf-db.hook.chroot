@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+
+##
+## ## Update dconf db
+##
+## * /etc/dconf/db/
+##
+
+
+dconf update
