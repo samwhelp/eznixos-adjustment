@@ -121,7 +121,7 @@ policykit-1
 printer-driver-gutenprint
 python3-ibus-1.0
 rar
-samba-common-bin
+#samba-common-bin
 simple-scan
 simplescreenrecorder
 smplayer
