@@ -71,6 +71,7 @@ rofi
 
 sakura
 xfce4-terminal
+lxterminal
 
 
 
@@ -217,6 +218,15 @@ xfwm4-theme-breeze
 numix-gtk-theme
 numix-icon-theme
 numix-icon-theme-circle
+
+
+
+
+##
+## ## Package / Theme / arc
+##
+
+arc-theme
 
 
 
