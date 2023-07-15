@@ -190,6 +190,17 @@ fcitx5-table
 fcitx5-m17n
 
 
+
+
+##
+## ## Package / Font / Noto
+##
+
+fonts-noto-cjk
+
+
+
+
 ##
 ## ## Package / Theme
 ##
@@ -236,3 +247,14 @@ arc-theme
 ##
 
 papirus-icon-theme
+
+
+
+
+##
+## ## Package / Bluetooth
+##
+
+bluetooth
+##bluez
+blueman
