@@ -23,6 +23,7 @@ xfce4-goodies
 
 build-essential
 python3-github
+meld
 
 
 
@@ -33,6 +34,7 @@ python3-github
 
 bash-completion
 fzf
+
 
 
 
