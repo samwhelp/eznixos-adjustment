@@ -14,6 +14,11 @@
 mate-desktop-environment
 mate-tweak
 
+#mate-applets
+#mate-applet-brisk-menu
+
+
+
 
 ##
 ## ## Package / Window Manager / Compiz
