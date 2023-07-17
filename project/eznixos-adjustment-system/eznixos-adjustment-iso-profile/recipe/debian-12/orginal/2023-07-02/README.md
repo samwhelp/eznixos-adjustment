@@ -5,9 +5,9 @@
 
 ## Link
 
-* https://sourceforge.net/projects/eznixos/
-* https://osdn.net/projects/eznix-os/
-* https://www.youtube.com/c/eznix/videos
+* SourceForge / [EznixOS](https://sourceforge.net/projects/eznixos/)
+* OSDN / [EznixOS](https://osdn.net/projects/eznix-os/)
+* YouTube / [eznix](https://www.youtube.com/c/eznix/videos)
 
 
 ## Notice
