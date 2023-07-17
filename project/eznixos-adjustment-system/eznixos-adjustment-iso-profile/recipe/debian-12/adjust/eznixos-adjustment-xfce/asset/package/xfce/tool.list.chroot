@@ -74,7 +74,7 @@ rofi
 sakura
 xfce4-terminal
 lxterminal
-
+qterminal
 
 
 
@@ -208,7 +208,7 @@ fonts-noto-cjk
 ##
 
 gtk2-engines-murrine
-
+lxappearance
 
 
 
