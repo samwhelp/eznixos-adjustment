@@ -1,0 +1,40 @@
+
+
+##
+## # Desktop Environment
+##
+
+
+
+
+##
+## ## Package / Desktop Environment / Xfce
+##
+
+mate-desktop-environment
+
+
+
+
+##
+## ## Package / Desktop Environment
+##
+
+accountsservice
+
+asunder
+atril
+
+dconf-cli
+gnome-disk-utility
+gnome-keyring
+gnome-nettool
+gnome-system-tools
+
+remmina
+
+
+xarchiver
+
+pavucontrol
+pulseaudio
