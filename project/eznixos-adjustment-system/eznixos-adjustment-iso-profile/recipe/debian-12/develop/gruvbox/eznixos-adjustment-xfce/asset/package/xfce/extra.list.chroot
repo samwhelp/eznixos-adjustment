@@ -1,3 +1,16 @@
+
+
+##
+## # Extra
+##
+
+
+
+
+##
+## ## Package / Extra
+##
+
 aisleriot
 alsa-utils
 apt-transport-https
@@ -67,7 +80,6 @@ ibus-data
 ibus-gtk
 ibus-gtk3
 iftop
-im-config
 inxi
 isolinux
 iw
