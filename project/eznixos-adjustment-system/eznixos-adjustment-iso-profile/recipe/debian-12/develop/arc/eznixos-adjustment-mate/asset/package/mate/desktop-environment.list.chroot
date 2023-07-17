@@ -8,11 +8,21 @@
 
 
 ##
-## ## Package / Desktop Environment / Xfce
+## ## Package / Desktop Environment / Mate
 ##
 
 mate-desktop-environment
 mate-tweak
+
+
+##
+## ## Package / Window Manager / Compiz
+##
+
+compiz
+compiz-plugins
+compiz-mate
+compizconfig-settings-manager
 
 
 
