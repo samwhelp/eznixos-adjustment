@@ -447,7 +447,7 @@ mod_iso_profile_base () {
 	util_error_echo "cd ${THE_PLAN_PROFILE_DIR_PATH}"
 	cd "${THE_PLAN_PROFILE_DIR_PATH}"
 
-	local distro_nme="eznixOS12X"
+	local distro_nme="eznixos-mate"
 
 	lb config \
 		--binary-images iso-hybrid \
