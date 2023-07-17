@@ -1,7 +1,10 @@
 
 
 [org.mate.panel]
-default-layout='stand-alone-top'
+default-layout='brisk-menu-stand-alone-top'
+#default-layout='stand-alone-top'
+
+
 
 
 [org.mate.session]

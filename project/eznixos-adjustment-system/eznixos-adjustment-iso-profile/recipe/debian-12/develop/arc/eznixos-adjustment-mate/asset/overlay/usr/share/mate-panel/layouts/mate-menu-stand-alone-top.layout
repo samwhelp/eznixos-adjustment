@@ -34,7 +34,7 @@ locked=true
 
 [Object web-brower]
 object-type=launcher
-launcher-location=/usr/share/applications/firefox.desktop
+launcher-location=/usr/share/applications/firefox-esr.desktop
 toplevel-id=main-panel
 position=13
 locked=true
