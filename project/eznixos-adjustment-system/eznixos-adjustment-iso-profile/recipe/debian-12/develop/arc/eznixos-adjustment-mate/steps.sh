@@ -447,7 +447,7 @@ mod_iso_profile_base () {
 	util_error_echo "cd ${THE_PLAN_PROFILE_DIR_PATH}"
 	cd "${THE_PLAN_PROFILE_DIR_PATH}"
 
-	local distro_nme="eznixos-mate"
+	local distro_name="eznixos-mate"
 
 	lb config \
 		--binary-images iso-hybrid \
@@ -463,11 +463,11 @@ mod_iso_profile_base () {
 		--firmware-binary true \
 		--firmware-chroot true \
 		--win32-loader false \
-		--iso-application "${distro_nme}" \
+		--iso-application "${distro_name}" \
 		--iso-preparer eznix-https://sourceforge.net/projects/eznixos/ \
 		--iso-publisher eznix-https://sourceforge.net/projects/eznixos/ \
-		--image-name "${distro_nme}-$(date -u +"%y%m%d")" \
-		--iso-volume "${distro_nme}-$(date -u +"%y%m%d")" \
+		--image-name "${distro_name}-$(date -u +"%y%m%d")" \
+		--iso-volume "${distro_name}-$(date -u +"%y%m%d")" \
 		--checksums sha512 \
 		--clean \
 		--color
