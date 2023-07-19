@@ -8,12 +8,30 @@
 
 
 ##
-## ## Package / Desktop Environment / Xfce
+## ## Package / Desktop Environment / Gnome Shell
 ##
+
+
+#task-gnome-desktop
+#gnome
+#gnome-core
+
 
 gnome-shell
 gnome-tweaks
 
+
+gnome-terminal
+gnome-console
+
+nautilus
+nautilus-extension-gnome-terminal
+
+gedit
+gedit-plugins
+
+
+gnome-builder
 
 
 
