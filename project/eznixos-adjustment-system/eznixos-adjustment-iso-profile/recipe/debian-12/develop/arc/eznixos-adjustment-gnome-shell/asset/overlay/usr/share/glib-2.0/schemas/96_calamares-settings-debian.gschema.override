@@ -1,0 +1,11 @@
+# Launcher icons
+[org.gnome.shell]
+favorite-apps=['pcmanfm-qt.desktop', 'org.xfce.mousepad.desktop', 'firefox-esr.desktop', 'sakura.desktop', 'org.gnome.Settings.desktop', 'org.gnome.tweaks.desktop', 'toggle-show-desktop.xdotool.desktop', 'install-debian.desktop']
+##favorite-apps=['install-debian.desktop', 'firefox-esr.desktop', 'org.gnome.Evolution.desktop', 'rhythmbox.desktop', 'libreoffice-writer.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'yelp.desktop']
+
+# We don't want the screensaver to enable on the live media while installing
+[org.gnome.desktop.lockdown]
+disable-lock-screen=true
+
+[org.gnome.desktop.session]
+idle-delay=0
