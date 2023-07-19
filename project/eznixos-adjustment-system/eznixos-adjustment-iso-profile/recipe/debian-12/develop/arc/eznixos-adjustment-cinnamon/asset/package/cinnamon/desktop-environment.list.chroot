@@ -1,0 +1,42 @@
+
+
+##
+## # Desktop Environment
+##
+
+
+
+
+##
+## ## Package / Desktop Environment / Cinnamon
+##
+
+cinnamon
+cinnamon-l10n
+
+
+
+
+
+##
+## ## Package / Desktop Environment
+##
+
+accountsservice
+
+asunder
+atril
+
+dconf-cli
+gnome-disk-utility
+gnome-keyring
+gnome-nettool
+gnome-system-tools
+
+remmina
+
+
+xarchiver
+
+pavucontrol
+pulseaudio
