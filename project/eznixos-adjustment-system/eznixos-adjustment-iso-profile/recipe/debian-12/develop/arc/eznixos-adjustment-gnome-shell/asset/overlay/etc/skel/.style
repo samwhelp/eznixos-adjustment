@@ -19,9 +19,9 @@
 ## > for gtk-4
 ##
 
-GTK_THEME=Arc-Dark
-#GTK_THEME=Arc-Dark:dark
-#GTK_THEME=Arc:dark
+export GTK_THEME=Arc-Dark
+#export GTK_THEME=Arc-Dark:dark
+#export GTK_THEME=Arc:dark
 
 ##
 ### Tail: GTK_THEME
