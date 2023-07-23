@@ -13,6 +13,7 @@
 ### Head: GTK_THEME
 ##
 
+
 ##
 ## GTK_THEME
 ##
@@ -22,6 +23,7 @@
 export GTK_THEME=Arc-Dark
 #export GTK_THEME=Arc-Dark:dark
 #export GTK_THEME=Arc:dark
+
 
 ##
 ### Tail: GTK_THEME
@@ -33,6 +35,7 @@ export GTK_THEME=Arc-Dark
 ################################################################################
 ### Head: QT_STYLE
 ##
+
 
 ##
 ## QT_STYLE
@@ -81,5 +84,3 @@ fi
 ##
 ### Tail: QT_STYLE
 ################################################################################
-
-
