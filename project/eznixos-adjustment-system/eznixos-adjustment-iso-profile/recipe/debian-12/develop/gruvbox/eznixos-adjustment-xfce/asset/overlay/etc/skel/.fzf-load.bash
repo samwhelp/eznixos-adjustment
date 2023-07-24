@@ -2,6 +2,15 @@
 
 
 ################################################################################
+##
+## ~/.fzf-load.bash
+##
+################################################################################
+
+
+
+
+################################################################################
 ### Head: fzf
 ##
 
@@ -16,7 +25,7 @@
 ## source /usr/share/doc/fzf/examples/key-bindings.bash
 ##
 
-[[ -f /usr/share/doc/fzf/examples/key-bindings.bash ]] && source /usr/share/doc/fzf/examples/key-bindings.bash
+[ -f /usr/share/doc/fzf/examples/key-bindings.bash ] && . /usr/share/doc/fzf/examples/key-bindings.bash
 
 ##
 ### Tail: fzf

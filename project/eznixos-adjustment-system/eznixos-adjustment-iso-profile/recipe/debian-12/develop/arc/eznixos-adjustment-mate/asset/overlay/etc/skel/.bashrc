@@ -162,7 +162,7 @@ fi
 ## Load ~/.bash_it_profile
 ##
 
-[[ -f ~/.bash_it_profile ]] && . ~/.bash_it_profile
+[ -f ~/.bash_it_profile ] && . ~/.bash_it_profile
 
 
 ##
@@ -184,7 +184,7 @@ fi
 ## Load ~/.fzf-load.bash
 ##
 
-[[ -f ~/.fzf-load.bash ]] && . ~/.fzf-load.bash
+[ -f ~/.fzf-load.bash ] && . ~/.fzf-load.bash
 
 
 ##

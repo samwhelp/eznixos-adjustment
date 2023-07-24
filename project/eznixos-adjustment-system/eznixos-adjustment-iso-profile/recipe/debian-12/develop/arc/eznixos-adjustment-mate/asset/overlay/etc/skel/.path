@@ -9,6 +9,11 @@
 
 
 
+################################################################################
+### Head: Path
+##
+
+
 ##
 ## * https://wiki.archlinux.org/title/environment_variables#Using_shell_initialization_files
 ##
@@ -57,3 +62,8 @@ _prepend_path_ "${HOME}/bin" "${HOME}/.local/bin"
 ## Unload Function
 ##
 unset -f _prepend_path_
+
+
+##
+### Tail: Path
+################################################################################
