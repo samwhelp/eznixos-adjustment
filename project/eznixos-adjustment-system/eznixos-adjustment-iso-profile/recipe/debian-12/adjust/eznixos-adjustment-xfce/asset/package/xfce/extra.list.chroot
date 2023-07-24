@@ -1,3 +1,16 @@
+
+
+##
+## # Extra
+##
+
+
+
+
+##
+## ## Package / Extra
+##
+
 aisleriot
 alsa-utils
 apt-transport-https
@@ -67,7 +80,6 @@ ibus-data
 ibus-gtk
 ibus-gtk3
 iftop
-im-config
 inxi
 isolinux
 iw
@@ -148,12 +160,8 @@ webext-keepassxc-browser
 wget
 x265
 x264
-xclip
 xdg-utils
 xfsprogs
-xorg
-xserver-xorg-input-all
-xserver-xorg-video-all
 xorriso
 xscreensaver
 xterm
