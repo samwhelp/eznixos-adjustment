@@ -49,6 +49,8 @@ _prompt_set_ () {
 	history -c
 	history -r
 
+
+	## user@host [21:47:39] (~)
 	PS1="${THE_COLOR_GREEN}\u${THE_COLOR_RESET_COLOR}@${THE_COLOR_RED}\H${THE_COLOR_RESET_COLOR} [${THE_COLOR_BLUE}\t${THE_COLOR_RESET_COLOR}] (${THE_COLOR_GREEN}\w${THE_COLOR_RESET_COLOR}) ${THE_COLOR_RESET_COLOR}\n ${prompt_end} "
 	PS2='> '
 	PS4='+ '
