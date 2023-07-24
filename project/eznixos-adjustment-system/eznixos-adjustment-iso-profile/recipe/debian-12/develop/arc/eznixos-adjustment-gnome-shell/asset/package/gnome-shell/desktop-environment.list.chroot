@@ -35,6 +35,20 @@ gnome-builder
 
 
 
+
+##
+## ## Package / Desktop Environment / Gnome Shell / Eextension
+##
+
+gnome-shell-extension-prefs
+
+gnome-shell-extensions
+#gnome-shell-extensions-extra
+gnome-shell-extension-dashtodock
+
+
+
+
 ##
 ## ## Package / Desktop Environment
 ##
