@@ -1,4 +1,25 @@
 
+
+################################################################################
+##
+## /etc/X11/Xsession.d/99qt-style-follow-gtk
+##
+################################################################################
+
+
+
+
+################################################################################
+### Head: QT_STYLE
+##
+
+
+##
+## QT_STYLE
+##
+## > QT_QPA_PLATFORMTHEME
+##
+
 if [ "$XDG_CURRENT_DESKTOP" != "KDE" ]; then
 
 
@@ -20,9 +41,9 @@ if [ "$XDG_CURRENT_DESKTOP" != "KDE" ]; then
 	## qt-style-follow-gtk
 	##
 
-	#export QT_QPA_PLATFORMTHEME=gtk2
+	export QT_QPA_PLATFORMTHEME=gtk2
 
-	true;
+
 fi
 
 
@@ -35,3 +56,8 @@ fi
 ## $ dpkg -S /usr/lib/x86_64-linux-gnu/qt5/plugins/styles/libqgtk2style.so
 ## qt5-gtk2-platformtheme:amd64: /usr/lib/x86_64-linux-gnu/qt5/plugins/styles/libqgtk2style.so
 ##
+
+
+##
+### Tail: QT_STYLE
+################################################################################
