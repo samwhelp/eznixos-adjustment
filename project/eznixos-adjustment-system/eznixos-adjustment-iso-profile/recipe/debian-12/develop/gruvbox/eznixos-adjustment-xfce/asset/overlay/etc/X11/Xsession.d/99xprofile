@@ -2,7 +2,7 @@
 
 ################################################################################
 ##
-## /etc/X11/Xsession.d/00profile
+## /etc/X11/Xsession.d/99xprofile
 ##
 ################################################################################
 
@@ -30,14 +30,14 @@
 
 
 ## 00profile
-[ -f /etc/profile ] && . /etc/profile
-[ -f ~/.profile ] && . ~/.profile
+#[ -f /etc/profile ] && . /etc/profile
+#[ -f ~/.profile ] && . ~/.profile
 
-[ -f /etc/xprofile ] && . /etc/xprofile
+#[ -f /etc/xprofile ] && . /etc/xprofile
 
 
 ## 99xprofile
-#[ -f ~/.xprofile ] && . ~/.xprofile
+[ -f ~/.xprofile ] && . ~/.xprofile
 
 
 ##

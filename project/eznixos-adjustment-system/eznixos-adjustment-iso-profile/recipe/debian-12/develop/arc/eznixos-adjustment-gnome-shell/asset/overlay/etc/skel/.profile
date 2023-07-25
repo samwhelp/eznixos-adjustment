@@ -67,7 +67,7 @@ fi
 ## Style
 ##
 
-[ -f ~/.style ] && . ~/.style
+#[ -f ~/.style ] && . ~/.style
 
 ##
 ### Tail: Style
