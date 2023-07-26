@@ -12,3 +12,31 @@
 ##
 
 fonts-noto-cjk
+
+
+
+
+##
+## ## Package / Font / DejaVu
+##
+
+fonts-dejavu
+
+
+
+
+##
+## ## Package / Font / Liberation
+##
+
+fonts-liberation2
+#fonts-liberation
+
+
+
+
+##
+## ## Package / Font / Liberation
+##
+
+fonts-jetbrains-mono
