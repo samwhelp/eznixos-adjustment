@@ -6,6 +6,6 @@ Timeout=10
 Theme=org.kde.breeze.desktop
 
 [Greeter][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/SafeLanding/
-PreviewImage=/usr/share/wallpapers/SafeLanding/
+Image=/usr/share/wallpapers/Next/
+PreviewImage=/usr/share/wallpapers/Next/
 SlidePaths=/usr/share/wallpapers/
