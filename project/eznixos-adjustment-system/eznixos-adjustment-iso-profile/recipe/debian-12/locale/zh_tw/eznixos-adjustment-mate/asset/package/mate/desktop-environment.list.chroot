@@ -1,0 +1,55 @@
+
+
+##
+## # Desktop Environment
+##
+
+
+
+
+##
+## ## Package / Desktop Environment / Mate
+##
+
+mate-desktop-environment
+mate-tweak
+
+#mate-applets
+#mate-applet-brisk-menu
+
+
+
+
+##
+## ## Package / Window Manager / Compiz
+##
+
+compiz
+compiz-plugins
+compiz-mate
+compizconfig-settings-manager
+
+
+
+##
+## ## Package / Desktop Environment
+##
+
+accountsservice
+
+asunder
+atril
+
+dconf-cli
+gnome-disk-utility
+gnome-keyring
+gnome-nettool
+gnome-system-tools
+
+remmina
+
+
+xarchiver
+
+pavucontrol
+pulseaudio
