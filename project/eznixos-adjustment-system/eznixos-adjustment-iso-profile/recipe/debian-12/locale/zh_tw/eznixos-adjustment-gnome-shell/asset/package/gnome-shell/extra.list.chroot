@@ -50,6 +50,7 @@ fakeroot
 ffmpeg
 filezilla
 firefox-esr
+firefox-esr-l10n-zh-tw
 flac
 foomatic-db
 foomatic-db-engine
@@ -97,6 +98,7 @@ libreoffice-impress
 libreoffice-writer
 libreoffice-gtk3
 libreoffice-help-en-us
+libreoffice-l10n-zh-tw
 libnss-mdns
 libsmbclient
 libxcb-xtest0
