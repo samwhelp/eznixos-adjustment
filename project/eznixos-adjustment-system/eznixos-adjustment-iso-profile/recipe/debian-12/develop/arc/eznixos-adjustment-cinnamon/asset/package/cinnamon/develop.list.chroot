@@ -12,5 +12,9 @@
 ##
 
 build-essential
+
+tree
+
 python3-github
+
 meld
