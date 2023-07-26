@@ -5,7 +5,10 @@
 
 ## Notice
 
-> Need [kde-l10n-zhtw](https://packages.debian.org/search?keywords=kde-l10n-zhtw)
+
+### kde locale
+
+> kde locale config file: [~/.config/plasma-localerc](asset/overlay/etc/skel/.config/plasma-localerc)
 
 
 ## Howto
