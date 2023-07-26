@@ -3,6 +3,11 @@
 # EznixOs Adjustment
 
 
+## Notice
+
+> Need [kde-l10n-zhtw](https://packages.debian.org/search?keywords=kde-l10n-zhtw)
+
+
 ## Howto
 
 ### prepare
