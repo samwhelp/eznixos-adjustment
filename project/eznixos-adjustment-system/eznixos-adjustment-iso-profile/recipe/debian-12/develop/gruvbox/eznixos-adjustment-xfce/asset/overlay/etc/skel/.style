@@ -25,7 +25,7 @@
 #export GTK_THEME=Arc:dark
 
 
-export GTK_THEME=Gruvbox
+#export GTK_THEME=Gruvbox
 
 
 ##
