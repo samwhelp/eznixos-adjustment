@@ -9,6 +9,7 @@
 * [Launcher](#Launcher)
 * [Input Method](#input-method)
 * [Font](#font)
+* [Shell](#shell)
 * [Style](#Style)
 * [Xdg](#xdg)
 * [Tool](#tool)
@@ -87,7 +88,46 @@
 | [~/.config/fontconfig/conf.d/50-font-match-order.conf](../../asset/overlay/etc/skel/.config/fontconfig/conf.d/50-font-match-order.conf) |
 
 
+## Shell
+
+
 ## Style
+
+* [gtk-2](#gtk-2)
+* [gtk-3](#gtk-3)
+* [qt5ct](#qt5ct)
+* [qt-style-follow-gtk](#qt-style-follow-gtk)
+
+
+### gtk-2
+
+| gtk-2 |
+| --- |
+| [~/.gtkrc-2.0](../../asset/overlay/etc/skel/.gtkrc-2.0) |
+
+
+### gtk-3
+
+| gtk-3 |
+| --- |
+| [~/.config/gtk-3.0/settings.ini](../../asset/overlay/etc/skel/.config/gtk-3.0/settings.ini) |
+| [~/.config/gtk-3.0/gtk.css](../../asset/overlay/etc/skel/.config/gtk-3.0/gtk.css) |
+| [~/.config/gtk-3.0/vte-terminal.css](../../asset/overlay/etc/skel/.config/gtk-3.0/vte-terminal.css) |
+
+
+## qt5ct
+
+| qt5ct |
+| --- |
+| [~/.config/qt5ct/qt5ct.conf](../../asset/overlay/etc/skel/.config/qt5ct/qt5ct.conf) |
+
+
+## qt-style-follow-gtk
+
+| qt-style-follow-gtk |
+| --- |
+| [/etc/X11/Xsession.d/98qt-style-follow-gtk](../../asset/overlay/etc/X11/Xsession.d/98qt-style-follow-gtk) |
+| [~/.style](../../asset/overlay/etc/skel/.style) |
 
 
 ## Xdg
