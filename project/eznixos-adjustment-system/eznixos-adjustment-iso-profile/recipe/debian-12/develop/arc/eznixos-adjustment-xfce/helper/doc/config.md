@@ -9,6 +9,7 @@
 * [Launcher](#Launcher)
 * [Input Method](#input-method)
 * [Font](#font)
+* [Profile](#profile)
 * [Shell](#shell)
 * [Style](#Style)
 * [Xdg](#xdg)
@@ -88,7 +89,45 @@
 | [~/.config/fontconfig/conf.d/50-font-match-order.conf](../../asset/overlay/etc/skel/.config/fontconfig/conf.d/50-font-match-order.conf) |
 
 
+## Profile
+
+* [xprofile](#xprofile)
+* [user-home-bin-path](#user-home-bin-path)
+
+
+### xprofile
+
+| xprofile |
+| --- |
+| [/etc/X11/Xsession.d/00profile](../../asset/overlay/etc/X11/Xsession.d/00profile) |
+| [/etc/X11/Xsession.d/98xprofile](../../asset/overlay/etc/X11/Xsession.d/98xprofile) |
+| /etc/profile |
+| [~/.profile](../../asset/overlay/etc/skel/.profile) |
+| /etc/xprofile |
+| [~/.xprofile](../../asset/overlay/etc/skel/.xprofile) |
+
+
+### user-home-bin-path
+
+| user-home-bin-path |
+| --- |
+| [/etc/profile.d/user-home-bin-path.sh](../../asset/overlay/etc/profile.d/user-home-bin-path.sh) |
+| [~/.path](../../asset/overlay/etc/skel/.path) |
+
+
 ## Shell
+
+* [bash](#bash)
+
+
+### bash
+
+| bash |
+| --- |
+| [~/.profile](../../asset/overlay/etc/skel/.profile) |
+| [~/.bashrc](../../asset/overlay/etc/skel/.bashrc) |
+| [~/.prompt](../../asset/overlay/etc/skel/.prompt) |
+| [~/.color](../../asset/overlay/etc/skel/.color) |
 
 
 ## Style
