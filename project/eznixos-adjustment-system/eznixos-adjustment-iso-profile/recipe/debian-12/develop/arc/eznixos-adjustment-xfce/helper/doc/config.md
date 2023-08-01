@@ -26,8 +26,8 @@
 | [~/.config/plank/dock1/launchers/pcmanfm-qt.dockitem](../../asset/overlay/etc/skel/.config/plank/dock1/launchers/pcmanfm-qt.dockitem) |
 | [~/.config/plank/dock1/launchers/firefox-esr.dockitem](../../asset/overlay/etc/skel/.config/plank/dock1/launchers/firefox-esr.dockitem) |
 | [~/.config/plank/dock1/launchers/org.xfce.mousepad.dockitem](../../asset/overlay/etc/skel/.config/plank/dock1/launchers/org.xfce.mousepad.dockitem) |
-| [~/.config/plank/dock1/launchers/sakura.dockitem](../../asset/overlay/etc/skel/.config/plank/dock1/launchers/desktop.dockitem) |
-| [~/.config/plank/dock1/launchers/sakura.dockitem](../../asset/overlay/etc/skel/.config/plank/dock1/launchers/desktop.dockitem) |
+| [~/.config/plank/dock1/launchers/sakura.dockitem](../../asset/overlay/etc/skel/.config/plank/dock1/launchers/sakura.dockitem) |
+| [~/.config/plank/dock1/launchers/desktop.dockitem](../../asset/overlay/etc/skel/.config/plank/dock1/launchers/desktop.dockitem) |
 
 
 ## Launcher
