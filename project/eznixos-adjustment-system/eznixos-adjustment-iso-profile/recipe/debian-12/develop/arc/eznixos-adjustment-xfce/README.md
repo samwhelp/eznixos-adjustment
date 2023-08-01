@@ -6,7 +6,7 @@
 
 | Docs |
 | --- |
-| [Config](helper/doc/config.md) |
+| [Config File Path](helper/doc/config.md) |
 
 
 ## Howto
