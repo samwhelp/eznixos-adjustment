@@ -9,6 +9,7 @@
 * [Launcher](#Launcher)
 * [Input Method](#input-method)
 * [Font](#font)
+* [Style](#Style)
 * [Xdg](#xdg)
 * [Tool](#tool)
 
@@ -18,7 +19,7 @@
 * [plank](#plank)
 
 
-## plank
+### plank
 
 | plank |
 | --- |
@@ -35,7 +36,7 @@
 * [rofi](#rofi)
 
 
-## rofi
+### rofi
 
 | rofi |
 | --- |
@@ -47,7 +48,15 @@
 
 ## Input Method
 
+* [im-config](#im-config)
 * [fcitx5](#fcitx5)
+
+
+## im-config
+
+| im-config |
+| --- |
+| [~/.xinputrc](../../asset/overlay/etc/skel/.xinputrc) |
 
 
 ## fcitx5
@@ -78,7 +87,32 @@
 | [~/.config/fontconfig/conf.d/50-font-match-order.conf](../../asset/overlay/etc/skel/.config/fontconfig/conf.d/50-font-match-order.conf) |
 
 
+## Style
+
+
 ## Xdg
+
+* [xdg-user-dir-templates](#xdg-user-dir-templates)
+* [xdg-mime-applications](#xdg-mime-applications)
+
+
+### xdg-user-dir-templates
+
+| xdg-user-dir-templates |
+| --- |
+| [~/Templates/empty.txt](../../asset/overlay/etc/skel/Templates/empty.txt) |
+| [~/Templates/bash.sh](../../asset/overlay/etc/skel/Templates/bash.sh) |
+| [~/Templates/dl.sh](../../asset/overlay/etc/skel/Templates/dl.sh) |
+| [~/Templates/iso-to-usb.sh](../../asset/overlay/etc/skel/Templates/iso-to-usb.sh) |
+| [~/Templates/pygithub.py](../../asset/overlay/etc/skel/Templates/pygithub.py) |
+
+
+### xdg-mime-applications
+
+| xdg-mime-applications |
+| --- |
+| [~/.config/mimeapps.list](../../asset/overlay/etc/skel/.config/mimeapps.list) |
+| [/usr/share/applications/mimeapps.list](../../asset/overlay/usr/share/applications/mimeapps.list) |
 
 
 ## Tool
