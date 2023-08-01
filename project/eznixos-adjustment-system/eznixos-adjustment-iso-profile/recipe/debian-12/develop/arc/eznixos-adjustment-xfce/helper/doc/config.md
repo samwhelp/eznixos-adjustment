@@ -13,6 +13,8 @@
 * [Terminal](#terminal)
 * [File Manager](#file-manager)
 * [Text Editor](#text-editor)
+* [Image Viewer](#image-viewer)
+* [Video Player](#video-player)
 
 
 ## Terminal
@@ -116,3 +118,26 @@
 | sublime-text |
 | --- |
 | [~/.config/sublime-text/Packages/User/Preferences.sublime-settings](../../asset/overlay/etc/skel/.config/sublime-text/Packages/User/Preferences.sublime-settings) |
+
+
+## Image Viewer
+
+* [viewnior](#viewnior)
+
+### viewnior
+
+| viewnior |
+| --- |
+| [~/.config/viewnior/viewnior.conf](../../asset/overlay/etc/skel/.config/viewnior/viewnior.conf) |
+
+
+## Video Player
+
+* [mpv](#mpv)
+
+### mpv
+
+| mpv |
+| --- |
+| [~/.config/mpv/mpv.conf](../../asset/overlay/etc/skel/.config/mpv/mpv.conf) |
+
