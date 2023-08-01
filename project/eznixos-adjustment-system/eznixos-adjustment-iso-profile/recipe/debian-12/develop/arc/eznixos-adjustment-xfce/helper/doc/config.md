@@ -76,8 +76,32 @@
 
 ## Text Editor
 
+* [vim](#vim)
+* [nvim](#nvim)
+* [micro](#micro)
 * [mousepad](#mousepad)
 * [sublime-text](#sublime-text)
+
+
+### vim
+
+| vim |
+| --- |
+| [~/.vim/vimrc](../../asset/overlay/etc/skel/.vim/vimrc) |
+
+
+### nvim
+
+| nvim |
+| --- |
+| [~/.config/nvim/init.vim](../../asset/overlay/etc/skel/.config/nvim/init.vim) |
+
+
+### micro
+
+| micro |
+| --- |
+| [~/.config/micro/settings.json](../../asset/overlay/etc/skel/.config/micro/settings.json) |
 
 
 ### mousepad
