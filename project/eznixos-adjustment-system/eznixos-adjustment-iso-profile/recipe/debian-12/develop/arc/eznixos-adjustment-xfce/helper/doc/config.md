@@ -75,3 +75,20 @@
 
 
 ## Text Editor
+
+* [mousepad](#mousepad)
+* [sublime-text](#sublime-text)
+
+
+### mousepad
+
+| mousepad |
+| --- |
+| [/usr/share/glib-2.0/schemas/50_mousepad.gschema.override](../../asset/overlay/usr/share/glib-2.0/schemas/50_mousepad.gschema.override) |
+
+
+### sublime-text
+
+| sublime-text |
+| --- |
+| [~/.config/sublime-text/Packages/User/Preferences.sublime-settings](../../asset/overlay/etc/skel/.config/sublime-text/Packages/User/Preferences.sublime-settings) |
