@@ -6,6 +6,7 @@
 ## Subject
 
 * [Dock](#dock)
+* [Launcher](#Launcher)
 * [Input Method](#input-method)
 * [Font](#font)
 * [Xdg](#xdg)
@@ -13,6 +14,32 @@
 
 
 ## Dock
+
+## plank
+
+| plank |
+| --- |
+| [/usr/share/glib-2.0/schemas/50_plank.gschema.override](../../asset/overlay/usr/share/glib-2.0/schemas/50_plank.gschema.override) |
+| [~/.config/plank/dock1/launchers/pcmanfm-qt.dockitem](../../asset/overlay/etc/skel/.config/plank/dock1/launchers/pcmanfm-qt.dockitem) |
+| [~/.config/plank/dock1/launchers/firefox-esr.dockitem](../../asset/overlay/etc/skel/.config/plank/dock1/launchers/firefox-esr.dockitem) |
+| [~/.config/plank/dock1/launchers/org.xfce.mousepad.dockitem](../../asset/overlay/etc/skel/.config/plank/dock1/launchers/org.xfce.mousepad.dockitem) |
+| [~/.config/plank/dock1/launchers/sakura.dockitem](../../asset/overlay/etc/skel/.config/plank/dock1/launchers/desktop.dockitem) |
+| [~/.config/plank/dock1/launchers/sakura.dockitem](../../asset/overlay/etc/skel/.config/plank/dock1/launchers/desktop.dockitem) |
+
+
+## Launcher
+
+* [rofi](#rofi)
+
+
+## rofi
+
+| rofi |
+| --- |
+| [~/.config/rofi/config.rasi](../../asset/overlay/etc/skel/.config/rofi/config.rasi) |
+| [~/.local/share/applications/rofi-show-run.desktop](../../asset/overlay/etc/skel/.local/share/applications/rofi-show-run.desktop) |
+| [~/.local/share/applications/rofi-show-drun.desktop](../../asset/overlay/etc/skel/.local/share/applications/rofi-show-drun.desktop) |
+| [~/.local/share/applications/rofi-show-window.desktop](../../asset/overlay/etc/skel/.local/share/applications/rofi-show-window.desktop) |
 
 
 ## Input Method
