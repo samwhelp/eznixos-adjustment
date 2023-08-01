@@ -5,7 +5,50 @@
 
 ## Subject
 
+* [Dock](#dock)
+* [Input Method](#input-method)
+* [Font](#font)
+* [Xdg](#xdg)
 * [Tool](#tool)
+
+
+## Dock
+
+
+## Input Method
+
+* [fcitx5]
+
+
+## fcitx5
+
+| fcitx5 |
+| --- |
+| [~/.config/fcitx5/config](../../asset/overlay/etc/skel/~/.config/fcitx5/config) |
+| [~/.config/fcitx5/profile](../../asset/overlay/etc/skel/~/.config/fcitx5/profile) |
+| [~/.config/fcitx5/conf/classicui.conf](../../asset/overlay/etc/skel/.config/fcitx5/conf/classicui.conf) |
+
+
+### fcitx5-chewing
+
+| fcitx5-chewing |
+| --- |
+| [~/.config/fcitx5/conf/chewing.conf](../../asset/overlay/etc/skel/.config/fcitx5/conf/chewing.conf) |
+
+
+## Font
+
+* [font-match-order](#font-match-order)
+
+
+### font-match-order
+
+| font-match-order |
+| --- |
+| [~/.config/fontconfig/conf.d/50-font-match-order.conf](../../asset/overlay/etc/skel/.config/fontconfig/conf.d/50-font-match-order.conf) |
+
+
+## Xdg
 
 
 ## Tool
