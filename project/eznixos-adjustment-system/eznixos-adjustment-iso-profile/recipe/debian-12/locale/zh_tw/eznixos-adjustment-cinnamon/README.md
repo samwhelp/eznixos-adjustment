@@ -3,6 +3,13 @@
 # EznixOs Adjustment
 
 
+## Docs
+
+| Docs |
+| --- |
+| [Config File Path](helper/doc/config.md) |
+
+
 ## Howto
 
 ### prepare
