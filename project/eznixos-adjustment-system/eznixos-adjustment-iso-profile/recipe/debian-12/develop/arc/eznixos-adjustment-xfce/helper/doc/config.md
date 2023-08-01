@@ -34,6 +34,11 @@
 | [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml](../../asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml) |
 
 
+| Xfce / favorite-apps |
+| --- |
+| [~/.config/xfce4/helpers.rc](../../asset/overlay/etc/skel/.config/xfce4/helpers.rc) |
+
+
 ## Dock
 
 * [plank](#plank)
