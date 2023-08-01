@@ -2,6 +2,12 @@
 
 # EznixOs Adjustment
 
+## Docs
+
+| Docs |
+| --- |
+| [Config](helper/doc/config.md) |
+
 
 ## Howto
 
