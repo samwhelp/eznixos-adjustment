@@ -17,6 +17,10 @@
 
 ## Terminal
 
+* [sakura](#sakura)
+* [xfce4-terminal](#xfce4-terminal)
+* [lxterminal](#lxterminal)
+
 
 ### sakura
 
@@ -40,6 +44,10 @@
 
 
 ## File Manager
+
+* [pcmanfm-qt](#pcmanfm-qt)
+* [pcmanfm](#pcmanfm)
+* [thunar](#thunar)
 
 
 ### pcmanfm-qt
