@@ -143,6 +143,7 @@ Theme=breeze-dark
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
+SingleClick=false
 
 [WM]
 activeBackground=49,54,59
