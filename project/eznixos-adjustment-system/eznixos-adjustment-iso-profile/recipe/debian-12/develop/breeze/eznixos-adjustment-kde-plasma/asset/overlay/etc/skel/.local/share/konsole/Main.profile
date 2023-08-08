@@ -7,3 +7,11 @@ LineSpacing=1
 Name=Main
 Parent=FALLBACK/
 TerminalMargin=8
+
+[Interaction Options]
+AutoCopySelectedText=false
+CopyTextAsHTML=false
+OpenLinksByDirectClickEnabled=false
+
+[Scrolling]
+ScrollBarPosition=2
