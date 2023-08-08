@@ -18,10 +18,14 @@
 kde-standard
 
 
-dolphin
-kate
 konsole
 yakuake
+dolphin
+kate
+kwrite
+kdevelop
+
+
 
 
 ##
