@@ -89,7 +89,7 @@ DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
 forceStripes=true
-launchers=applications:pcmanfm-qt.desktop,applications:org.xfce.mousepad.desktop,preferred://browser,applications:sakura.desktop,applications:systemsettings.desktop,applications:org.kde.discover.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:org.kde.kate.desktop,preferred://browser,applications:org.kde.konsole.desktop,applications:systemsettings.desktop,applications:org.kde.discover.desktop
 maxStripes=1
 showOnlyCurrentActivity=true
 showOnlyCurrentDesktop=true
