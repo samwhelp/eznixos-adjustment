@@ -1,2 +1,6 @@
 [Dialogs]
 FirstRun=false
+
+[Window]
+ShowTitleBar=false
+Width=70
