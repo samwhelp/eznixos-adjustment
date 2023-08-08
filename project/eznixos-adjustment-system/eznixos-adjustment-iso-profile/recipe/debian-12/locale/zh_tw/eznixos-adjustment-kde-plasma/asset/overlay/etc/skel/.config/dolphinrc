@@ -1,3 +1,5 @@
+MenuBar=Disabled
+
 [$Version]
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
@@ -23,6 +25,8 @@ GlobalViewProps=true
 RememberOpenedTabs=false
 ShowFullPath=true
 ShowFullPathInTitlebar=true
+Version=202
+ViewPropsTimestamp=2023,8,8,7,16,0.787
 
 [IconsMode]
 UseSystemFont=false
