@@ -1,4 +1,4 @@
 [TimeZones]
-LocalZone=UTC
+LocalZone=Asia/Taipei
 ZoneinfoDir=/usr/share/zoneinfo
 Zonetab=/usr/share/zoneinfo/zone.tab
