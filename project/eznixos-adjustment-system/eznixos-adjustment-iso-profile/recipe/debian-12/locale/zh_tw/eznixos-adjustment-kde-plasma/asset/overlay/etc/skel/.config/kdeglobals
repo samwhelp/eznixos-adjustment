@@ -137,6 +137,12 @@ ForegroundVisited=155,89,182
 
 [General]
 ColorScheme=BreezeDark
+XftSubPixel=none
+fixed=Monospace,12,-1,5,50,0,0,0,0,0
+font=Sans Serif,12,-1,5,50,0,0,0,0,0
+menuFont=Sans Serif,11,-1,5,50,0,0,0,0,0
+smallestReadableFont=Sans Serif,10,-1,5,50,0,0,0,0,0
+toolBarFont=Sans Serif,11,-1,5,50,0,0,0,0,0
 
 [Icons]
 Theme=breeze-dark
@@ -148,6 +154,7 @@ SingleClick=false
 [WM]
 activeBackground=49,54,59
 activeBlend=252,252,252
+activeFont=Sans Serif,10,-1,5,50,0,0,0,0,0
 activeForeground=252,252,252
 inactiveBackground=42,46,50
 inactiveBlend=161,169,177
