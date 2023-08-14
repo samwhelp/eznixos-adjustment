@@ -120,7 +120,7 @@ mod_package_make () {
 
 	local tool_bin_dir_path="${THE_PLAN_DIR_PATH}/../../../../tool/bin"
 
-	local delegate="${tool_bin_dir_path}/pack.sh"
+	local delegate="${tool_bin_dir_path}/download-deb.sh"
 
 	"${delegate}" "${THE_PLAN_DIR_PATH}"
 
@@ -155,7 +155,7 @@ mod_package_make_copy_to_repository () {
 		return
 	fi
 
-	cp -rf "${packagedir}"/*.deb "${repository_dir_path}/"
+	cp -a "${packagedir}"/*.deb "${repository_dir_path}/"
 
 }
 
