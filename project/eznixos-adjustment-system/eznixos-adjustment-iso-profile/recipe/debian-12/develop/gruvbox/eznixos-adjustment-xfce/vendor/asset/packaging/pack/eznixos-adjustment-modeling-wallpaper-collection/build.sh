@@ -118,9 +118,11 @@ mod_package_make () {
 	util_error_echo "## Building New Package"
 	util_error_echo
 
-	local delegate="${THE_PLAN_DIR_PATH}/pack.sh"
+	local tool_bin_dir_path="${THE_PLAN_DIR_PATH}/../../../../tool/bin"
 
-	"${delegate}"
+	local delegate="${tool_bin_dir_path}/pack.sh"
+
+	"${delegate}" "${THE_PLAN_DIR_PATH}"
 
 	return 0
 
@@ -128,13 +130,19 @@ mod_package_make () {
 
 mod_package_make_finish () {
 
-	mkdir -p "${packagedir}"
-
-	mv "${debdir}"/*.deb "${packagedir}"
+	mod_package_make_copy_to_package
 
 	#mod_package_make_copy_to_repository
 
 	mod_package_clean_on_finish
+}
+
+mod_package_make_copy_to_package () {
+
+	mkdir -p "${packagedir}"
+
+	mv "${debdir}"/*.deb "${packagedir}"
+
 }
 
 mod_package_make_copy_to_repository () {

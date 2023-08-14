@@ -18,7 +18,8 @@ THE_CMD_FILE_NAME="$(basename "$0")"
 ### Head: Path
 ##
 
-THE_PLAN_DIR_PATH="${THE_BASE_DIR_PATH}"
+####THE_PLAN_DIR_PATH="${THE_BASE_DIR_PATH}"
+THE_PLAN_DIR_PATH="${1}"
 tmpdir="${THE_PLAN_DIR_PATH}/tmp"
 srcdir="${tmpdir}/src"
 debdir="${tmpdir}/deb"
