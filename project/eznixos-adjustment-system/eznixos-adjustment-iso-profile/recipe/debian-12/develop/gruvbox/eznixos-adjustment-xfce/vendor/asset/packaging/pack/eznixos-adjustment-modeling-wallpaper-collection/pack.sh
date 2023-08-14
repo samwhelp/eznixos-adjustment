@@ -59,8 +59,8 @@ pkgdir="${debdir}/${pkgname}"
 ##
 
 THE_HOOK_DIR_PATH="${packscriptdir}/hook"
-THE_HOOK_PRE_DIR_PATH="${packscriptdir}/pre"
-THE_HOOK_POST_DIR_PATH="${packscriptdir}/post"
+THE_HOOK_PRE_DIR_PATH="${THE_HOOK_DIR_PATH}/pre"
+THE_HOOK_POST_DIR_PATH="${THE_HOOK_DIR_PATH}/post"
 
 ##
 ### Tail: Path / Hook
@@ -180,19 +180,77 @@ mod_package_build () {
 
 mod_hook_pre () {
 
-	echo "${THE_HOOK_DIR_PATH}"
+	local script_file_list="$(util_find_script_by_dir "${THE_HOOK_PRE_DIR_PATH}")"
+
+	#echo "${script_file_list}"
+	#echo ${script_file_list}
+
+	local script_file 
+
+	for script_file in ${script_file_list}; do
+		if [ -e "${script_file}" ]; then
+			util_error_echo "I: Hook Run ${script_file}"
+			util_error_echo
+			. "${script_file}"
+			util_error_echo
+		fi 
+	done
+
+
 	return 0
+
 }
 
 
 mod_hook_post () {
 
+	local script_file_list="$(util_find_script_by_dir "${THE_HOOK_POST_DIR_PATH}")"
+
+	#echo "${script_file_list}"
+	#echo ${script_file_list}
+
+	local script_file 
+
+	for script_file in ${script_file_list}; do
+		if [ -e "${script_file}" ]; then
+			util_error_echo "I: Hook Run ${script_file}"
+			util_error_echo
+			. "${script_file}"
+			util_error_echo
+		fi 
+	done
+
+
 	return 0
+
 }
 
 ##
 ### Tail: Skel / Hook
 ################################################################################
+
+
+################################################################################
+### Head: Util / Hook
+##
+
+util_find_script_by_dir () {
+
+	##
+	## https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/sample/find-image-file/demo-0031.sh
+	##
+
+	local script_dir_path="${1}"
+
+	find "${script_dir_path}" \( -iname "*.sh" \)
+
+}
+
+##
+### Tail: Util / Hook
+################################################################################
+
+
 
 
 ################################################################################

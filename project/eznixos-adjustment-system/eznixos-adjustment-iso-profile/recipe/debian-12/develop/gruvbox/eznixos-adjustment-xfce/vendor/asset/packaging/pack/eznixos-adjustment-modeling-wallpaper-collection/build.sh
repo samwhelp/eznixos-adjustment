@@ -132,7 +132,7 @@ mod_package_make_finish () {
 
 	mv "${debdir}"/*.deb "${packagedir}"
 
-	mod_package_make_copy_to_repository
+	#mod_package_make_copy_to_repository
 
 	mod_package_clean_on_finish
 }
