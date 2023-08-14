@@ -22,6 +22,7 @@ THE_PLAN_DIR_PATH="${THE_BASE_DIR_PATH}"
 tmpdir="${THE_PLAN_DIR_PATH}/tmp"
 srcdir="${tmpdir}/src"
 debdir="${tmpdir}/deb"
+packscriptdir="${THE_PLAN_DIR_PATH}"
 packscript="${THE_PLAN_DIR_PATH}/pack.deb.sh"
 
 ##
@@ -47,8 +48,22 @@ packscript="${THE_PLAN_DIR_PATH}/pack.deb.sh"
 pkgname="${gives}"
 pkgdir="${debdir}/${pkgname}"
 
+
 ##
 ### Tail: Path
+################################################################################
+
+
+################################################################################
+### Head: Path / Hook
+##
+
+THE_HOOK_DIR_PATH="${packscriptdir}/hook"
+THE_HOOK_PRE_DIR_PATH="${packscriptdir}/pre"
+THE_HOOK_POST_DIR_PATH="${packscriptdir}/post"
+
+##
+### Tail: Path / Hook
 ################################################################################
 
 
@@ -160,11 +175,34 @@ mod_package_build () {
 
 
 ################################################################################
+### Head: Skel / Hook
+##
+
+mod_hook_pre () {
+
+	echo "${THE_HOOK_DIR_PATH}"
+	return 0
+}
+
+
+mod_hook_post () {
+
+	return 0
+}
+
+##
+### Tail: Skel / Hook
+################################################################################
+
+
+################################################################################
 ### Head: Main
 ##
 __main__ () {
 
+	mod_hook_pre
 	mod_package_build
+	mod_hook_post
 
 }
 
