@@ -133,10 +133,10 @@ mod_package_make_deb () {
 
 cat > "${debian_dir_path}/control" << EOF
 Package: ${pkgname}
-Version: 0.1.0
-Architecture: all
-Description: This is a personal package which build from eznixos-adjustment.
-Maintainer: developer <developer@home.work>
+Version: ${pkgver}.${pkgrel}
+Architecture: ${arch}
+Maintainer: ${maintainer}
+Description: ${description}
 
 EOF
 

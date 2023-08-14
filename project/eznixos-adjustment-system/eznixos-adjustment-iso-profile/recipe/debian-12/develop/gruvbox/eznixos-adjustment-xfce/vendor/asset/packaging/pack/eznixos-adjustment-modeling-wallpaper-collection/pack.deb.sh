@@ -6,6 +6,11 @@
 
 name="eznixos-adjustment-modeling-wallpaper-collection"
 gives="${name}"
+pkgver="0.1"
+pkgrel="1"
+arch="all"
+description="This is a personal package which build from eznixos-adjustment."
+maintainer="developer <developer@home.work>"
 
 ##
 ### Tail: Attribute
