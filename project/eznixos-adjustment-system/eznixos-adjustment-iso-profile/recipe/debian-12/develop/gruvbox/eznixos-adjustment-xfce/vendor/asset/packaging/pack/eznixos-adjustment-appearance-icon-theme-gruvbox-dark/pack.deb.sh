@@ -4,7 +4,7 @@
 ### Head: Attribute
 ##
 
-name="eznixos-adjustment-appearance-gtk-theme-gruvbox"
+name="eznixos-adjustment-appearance-icon-theme-gruvbox-dark"
 gives="${name}"
 pkgver="0.1"
 pkgrel="1"
@@ -78,15 +78,15 @@ mod_theme_download () {
 	##
 
 
-	install -dm755 "${srcdir}/overlay/usr/share/themes"
+	install -dm755 "${srcdir}/overlay/usr/share/icons"
 
 	cd "${srcdir}"
 
-	wget -c "https://github.com/samwhelp/gruvbox-theme-collection/archive/refs/heads/gtk-theme-gruvbox.tar.gz" -O "gruvbox-theme-collection-gtk-theme-gruvbox.tar.gz"
+	wget -c "https://github.com/samwhelp/gruvbox-theme-collection/archive/refs/heads/icon-theme-gruvbox-dark.tar.gz" -O "gruvbox-theme-collection-icon-theme-gruvbox-dark.tar.gz"
 
-	tar xf gruvbox-theme-collection-gtk-theme-gruvbox.tar.gz
+	tar xf gruvbox-theme-collection-icon-theme-gruvbox-dark.tar.gz
 
-	cp -rf "${srcdir}/gruvbox-theme-collection-gtk-theme-gruvbox/." "${srcdir}/overlay/usr/share/themes/Gruvbox"
+	cp -rf "${srcdir}/gruvbox-theme-collection-icon-theme-gruvbox-dark/." "${srcdir}/overlay/usr/share/icons/Gruvbox-Dark"
 
 	cd "${OLDPWD}"
 
@@ -98,14 +98,14 @@ mod_theme_install () {
 	##
 	## ## Create
 	##
-	## * /usr/share/themes
-	## * /usr/share/themes/Gruvbox
+	## * /usr/share/icons
+	## * /usr/share/icons/Gruvbox-Dark
 	##
 
 
-	install -dm755 "${pkgdir}/usr/share/themes"
+	install -dm755 "${pkgdir}/usr/share/icons"
 
-	cp -rf "${srcdir}/overlay/usr/share/themes/." "${pkgdir}/usr/share/themes"
+	cp -rf "${srcdir}/overlay/usr/share/icons/." "${pkgdir}/usr/share/icons"
 
 	return 0
 

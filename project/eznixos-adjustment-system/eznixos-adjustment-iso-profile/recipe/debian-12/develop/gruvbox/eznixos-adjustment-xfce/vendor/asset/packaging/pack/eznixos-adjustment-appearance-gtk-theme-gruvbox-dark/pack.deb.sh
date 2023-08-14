@@ -99,12 +99,7 @@ mod_theme_install () {
 	## ## Create
 	##
 	## * /usr/share/themes
-	## * /usr/share/themes/RGapsBlack
-	## * /usr/share/themes/RGapsBlackNoButtons
-	## * /usr/share/themes/RGapsBlend
-	## * /usr/share/themes/RGapsBlendNoButtons
-	## * /usr/share/themes/RGapsLine
-	## * /usr/share/themes/RGapsLineNoButtons
+	## * /usr/share/themes/Gruvbox-Dark
 	##
 
 
