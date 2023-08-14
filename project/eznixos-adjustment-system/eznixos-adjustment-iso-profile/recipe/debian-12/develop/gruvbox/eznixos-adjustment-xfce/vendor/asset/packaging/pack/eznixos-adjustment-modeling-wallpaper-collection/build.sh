@@ -141,7 +141,7 @@ mod_package_make_copy_to_repository () {
 
 	local repository_dir_path="${THE_PLAN_DIR_PATH}/../../../overlay/opt/vendor/deb"
 
-	ls "${repository_dir_path}"
+	##ls "${repository_dir_path}"
 
 	if ! [ -d "${repository_dir_path}" ]; then
 		return

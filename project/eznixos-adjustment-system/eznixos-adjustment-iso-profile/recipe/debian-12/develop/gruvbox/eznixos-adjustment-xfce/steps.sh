@@ -58,6 +58,18 @@ THE_PLAN_PROFILE_PACKAGES_DIR_PATH="${THE_PLAN_PROFILE_CONFIG_DIR_PATH}/${THE_PL
 
 
 
+THE_PLAN_VENDOR_DIR_NAME="vendor"
+THE_PLAN_VENDOR_DIR_PATH="${THE_PLAN_DIR_PATH}/${THE_PLAN_VENDOR_DIR_NAME}"
+
+THE_PLAN_VENDOR_ASSET_DIR_NAME="asset"
+THE_PLAN_VENDOR_ASSET_DIR_PATH="${THE_PLAN_VENDOR_DIR_PATH}/${THE_PLAN_VENDOR_ASSET_DIR_NAME}"
+
+THE_PLAN_VENDOR_OVERLAY_DIR_NAME="overlay"
+THE_PLAN_VENDOR_OVERLAY_DIR_PATH="${THE_PLAN_VENDOR_ASSET_DIR_PATH}/${THE_PLAN_VENDOR_OVERLAY_DIR_NAME}"
+
+
+
+
 THE_PLAN_ASSET_DIR_NAME="asset"
 THE_PLAN_ASSET_DIR_PATH="${THE_PLAN_DIR_PATH}/${THE_PLAN_ASSET_DIR_NAME}"
 
@@ -503,6 +515,13 @@ mod_iso_profile_overlay () {
 
 
 	##
+	## ## vendor
+	##
+
+	mod_overlay_vendor
+
+
+	##
 	## ## base
 	##
 
@@ -581,6 +600,39 @@ mod_iso_profile_overlay () {
 ##
 ### Tail: Model / Build ISO / Overlay Profile
 ################################################################################
+
+
+################################################################################
+### Head: Model / Overlay / vendor
+##
+
+mod_overlay_vendor () {
+
+	mod_overlay_vendor_by_dir
+
+}
+
+mod_overlay_vendor_by_dir () {
+
+	if ! [ -d "${THE_PLAN_VENDOR_OVERLAY_DIR_PATH}" ]; then
+		util_error_echo
+		util_error_echo "##"
+		util_error_echo "## No Vendor"
+		util_error_echo "##"
+		util_error_echo
+		return
+	fi
+
+	util_error_echo
+	util_error_echo "cp -rf ${THE_PLAN_VENDOR_OVERLAY_DIR_PATH}/. ${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}"
+	cp -rf "${THE_PLAN_VENDOR_OVERLAY_DIR_PATH}/." "${THE_PLAN_PROFILE_ROOTFS_DIR_PATH}"
+
+}
+
+##
+### Tail: Model / Overlay / vendor
+################################################################################
+
 
 
 ################################################################################
