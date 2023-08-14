@@ -24,7 +24,8 @@ tmpdir="${THE_PLAN_DIR_PATH}/tmp"
 srcdir="${tmpdir}/src"
 debdir="${tmpdir}/deb"
 packscriptdir="${THE_PLAN_DIR_PATH}"
-packscript="${THE_PLAN_DIR_PATH}/pack.deb.sh"
+packscript="${packscriptdir}/pack.deb.sh"
+packagedir="${packscriptdir}/package"
 
 ##
 ### Tail: Path
@@ -186,6 +187,8 @@ mod_hook_pre () {
 	#echo "${script_file_list}"
 	#echo ${script_file_list}
 
+	util_error_echo
+
 	local script_file 
 
 	for script_file in ${script_file_list}; do
@@ -209,6 +212,8 @@ mod_hook_post () {
 
 	#echo "${script_file_list}"
 	#echo ${script_file_list}
+
+	util_error_echo
 
 	local script_file 
 

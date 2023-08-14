@@ -2,7 +2,7 @@
 
 mod_copy_deb_to_repository () {
 
-	local repository_dir_path="${THE_PLAN_DIR_PATH}/../../../overlay/opt/vendor/deb"
+	local repository_dir_path="${packscriptdir}/../../../overlay/opt/vendor/deb"
 
 	##ls "${repository_dir_path}"
 
