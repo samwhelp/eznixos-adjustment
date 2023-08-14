@@ -235,13 +235,13 @@ mod_wallpaper_asset_install_wallpaper_default () {
 mod_wallpaper_asset_install_wallpaper_copy_from_asset () {
 
 	##
-	## /usr/share/backgrounds/ezarcher-adjustment
+	## /usr/share/backgrounds/eznixos-adjustment
 	##
 
-	install -dm755 "${pkgdir}/usr/share/backgrounds/ezarcher-adjustment"
+	install -dm755 "${pkgdir}/usr/share/backgrounds/eznixos-adjustment"
 
 
-	cp -rf "${pkgdir}/etc/skel/Pictures/Wallpaper/." "${pkgdir}/usr/share/backgrounds/ezarcher-adjustment/"
+	cp -rf "${pkgdir}/etc/skel/Pictures/Wallpaper/." "${pkgdir}/usr/share/backgrounds/eznixos-adjustment/"
 
 }
 
