@@ -10,6 +10,11 @@ prepare:
 .PHONY: prepare
 
 
+debian-keyring-install:
+	sudo apt-get install debian-keyring
+.PHONY: debian-keyring-install
+
+
 build:
 	./build.sh
 .PHONY: build
@@ -23,3 +28,4 @@ run_iso:
 clean:
 	sudo rm -rf tmp
 .PHONY: clean
+
