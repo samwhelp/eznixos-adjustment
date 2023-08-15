@@ -20,6 +20,14 @@ to install [live-build](https://packages.debian.org/sid/live-build)
 make prepare
 ```
 
+### vendor
+
+to build vendor package
+
+``` sh
+make vendor-build
+```
+
 
 ### build
 
@@ -51,10 +59,6 @@ make clean
 
 ``` sh
 THE_DEFAULT_RUN=make-profile make build
-```
-
-``` sh
-THE_DEFAULT_RUN=make-profile make main-xfce
 ```
 
 
