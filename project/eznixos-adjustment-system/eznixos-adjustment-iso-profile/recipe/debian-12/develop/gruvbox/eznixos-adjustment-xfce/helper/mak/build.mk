@@ -28,4 +28,3 @@ run_iso:
 clean:
 	sudo rm -rf tmp
 .PHONY: clean
-
