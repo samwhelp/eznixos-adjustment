@@ -33,6 +33,7 @@ mod_build_list () {
 
 	cd "${THE_PLAN_DIR_PATH}"
 
+	mkdir -p "${THE_PLAN_DIR_PATH}/asset/overlay/opt/vendor/deb"
 
 	local package_list=$(sys_build_script_find)
 
