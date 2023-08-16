@@ -229,7 +229,7 @@ alias ls='ls --color=auto'
 ##
 
 ##
-## https://github.com/Bash-it/bash-it
+## * https://github.com/Bash-it/bash-it
 ##
 
 ##
@@ -244,6 +244,25 @@ alias ls='ls --color=auto'
 ################################################################################
 
 
+################################################################################
+### Head: starship
+##
+
+##
+## * https://starship.rs/
+## * https://github.com/starship/starship
+##
+
+##
+## Load ~/.starship-load.bash
+##
+
+[ -f ~/.starship-load.bash ] && . ~/.starship-load.bash
+
+
+##
+### Tail: starship
+################################################################################
 
 
 ################################################################################
@@ -251,7 +270,7 @@ alias ls='ls --color=auto'
 ##
 
 ##
-## https://wiki.archlinux.org/title/fzf
+## * https://wiki.archlinux.org/title/fzf
 ##
 
 ##
