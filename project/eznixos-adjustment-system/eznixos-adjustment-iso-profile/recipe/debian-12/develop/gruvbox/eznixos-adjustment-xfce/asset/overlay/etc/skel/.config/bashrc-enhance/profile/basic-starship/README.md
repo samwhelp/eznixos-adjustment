@@ -1,0 +1,4 @@
+
+
+# bashrc / profile / basic-starship
+

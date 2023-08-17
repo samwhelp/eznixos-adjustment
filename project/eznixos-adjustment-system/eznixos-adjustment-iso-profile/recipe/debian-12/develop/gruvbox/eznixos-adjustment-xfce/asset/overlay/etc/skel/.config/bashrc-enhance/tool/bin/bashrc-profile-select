@@ -1,0 +1,285 @@
+#!/usr/bin/env bash
+
+
+################################################################################
+### Head: Note
+##
+
+##
+## ## Link
+##
+## * https://github.com/samwhelp/skel-project-plan/tree/master/develop/sh/project-helper/basic
+## * https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-source
+## * https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select
+##
+
+
+##
+## ## Usage
+##
+## ### fzf
+##
+## ``` sh
+## bashrc-profile-select
+## ```
+##
+## ``` sh
+## THE_DEFAULT_MENU_FACTORY=fzf bashrc-profile-select
+## ```
+##
+## ### dmenu
+##
+## ``` sh
+## THE_DEFAULT_MENU_FACTORY=dmenu bashrc-profile-select
+## ```
+##
+## ### rofi
+##
+## ``` sh
+## THE_DEFAULT_MENU_FACTORY=rofi bashrc-profile-select
+## ```
+##
+## ### jgmenu
+##
+## ``` sh
+## THE_DEFAULT_MENU_FACTORY=jgmenu bashrc-profile-select
+## ```
+##
+
+##
+### Tail: Note
+################################################################################
+
+
+################################################################################
+### Head: Init
+##
+
+THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "${0}")" ; pwd)"
+THE_INIT_DIR_PATH="${THE_BASE_DIR_PATH}/../../helper/ext"
+. "${THE_INIT_DIR_PATH}/init.sh"
+
+##
+### Tail: Init
+################################################################################
+
+
+################################################################################
+### Head: Model / Menu Factory
+##
+
+THE_DEFAULT_MENU_FACTORY="${THE_DEFAULT_MENU_FACTORY:=fzf}"
+
+main_menu_factory () {
+	echo "${THE_DEFAULT_MENU_FACTORY}"
+}
+
+##
+### Tail: Model / Menu Factory
+################################################################################
+
+
+################################################################################
+### Head: Model / Menu Applet / Skel
+##
+
+menu_content () {
+
+	local profile_dir_path="${THE_MASTER_PROFILE_DIR_PATH}"
+
+	ls -1 "${profile_dir_path}"
+
+}
+
+menu_factory () {
+
+	local agent
+
+	#agent="fzf"
+	#agent="dmenu"
+	#agent="rofi"
+	#agent="jgmenu"
+
+	agent="$(main_menu_factory)"
+
+	local delegate="menu_factory_by_${agent}"
+
+	"${delegate}"
+
+}
+
+menu_factory_by_fzf () {
+
+	fzf
+
+}
+
+menu_factory_by_dmenu () {
+
+	dmenu -b -l 10
+
+}
+
+menu_factory_by_rofi () {
+
+	rofi -dmenu
+
+}
+
+menu_factory_by_jgmenu () {
+
+	jgmenu --simple --center --no-spawn
+
+}
+
+menu_start () {
+
+	 menu_content | menu_factory
+
+}
+
+##
+### Tail: Model / Menu Applet / Skel
+################################################################################
+
+
+################################################################################
+### Head: Model / Menu Applet / Main
+##
+
+mod_menu_applet_start () {
+
+	local selected="$(menu_start)"
+
+	if [ -z "${selected}" ]; then
+		echo "## Not selected ##"
+
+		return 0
+	fi
+
+	echo "## Selected: ${selected}"
+
+
+
+	local profile_dir_path="${THE_MASTER_PROFILE_DIR_PATH}"
+
+	local selected_profile_dir_path="${profile_dir_path}/${selected}"
+
+	local source_file_path="${selected_profile_dir_path}/main.sh"
+
+	if ! [ -f "${source_file_path}" ]; then
+		echo "## Source File Not Exist: ${source_file_path}"
+
+		return 0
+	fi
+
+
+
+	echo
+	echo "##"
+	echo "## selected_profile_dir_name: ${selected}"
+	echo "## selected_profile_dir_path: ${selected_profile_dir_path}"
+	echo "##"
+	echo
+
+
+	mod_bashrc_profile_set "${selected_profile_dir_path}"
+
+}
+
+##
+### Tail: Model / Menu Applet / Main
+################################################################################
+
+
+################################################################################
+### Head: Model / bashrc_profile_select
+##
+
+mod_bashrc_profile_set () {
+
+	local source_dir_path="${1}"
+	local target_dir_path="${THE_MASTER_PORT_DIR_PATH}"
+
+
+	sys_bashrc_profile_set "${source_dir_path}" "${target_dir_path}"
+
+
+}
+
+sys_bashrc_profile_set () {
+
+	#local tmp_name="tmp.$$.$RANDOM"
+	#local tmp_name="$(date '+%Y-%m-%d_%s')"
+	local tmp_name="$(date '+%Y-%m-%d_%H-%M-%S')"
+
+
+	##local tmp_dir_path="${THE_MAIN_TMP_DIR_PATH}"
+	local tmp_dir_path="${HOME}/.cache/bashrc-profile/backup/port"
+
+	mkdir -p "${tmp_dir_path}"
+
+
+	local tmp_source_dir_path="${tmp_dir_path}/port"
+	local tmp_target_dir_path="${tmp_dir_path}/port.${tmp_name}"
+	local source_dir_path="${1}"
+	local target_dir_path="${2}"
+
+
+	mkdir -p "${tmp_source_dir_path}"
+
+	cp -rf "${source_dir_path}/." "${tmp_source_dir_path}"
+
+
+	if [ -d "${target_dir_path}" ]; then
+		mv "${target_dir_path}" "${tmp_target_dir_path}"
+	fi
+
+
+	if [ -d "${tmp_source_dir_path}" ]; then
+		mv "${tmp_source_dir_path}" "${target_dir_path}"
+	fi
+
+
+	rm -rf "${tmp_target_dir_path}"
+
+}
+
+##
+### Tail: Model / bashrc_profile_select
+################################################################################
+
+
+################################################################################
+### Head: Main / bashrc_profile_select
+##
+
+mod_bashrc_profile_select () {
+
+	mod_main_signal_bind
+
+	mod_menu_applet_start
+
+	return 0
+}
+
+##
+### Tail: Main / bashrc_profile_select
+################################################################################
+
+
+################################################################################
+### Head: Main
+##
+
+__main__ () {
+
+	mod_bashrc_profile_select "${@}"
+
+}
+
+__main__ "${@}"
+
+##
+### Tail: Main
+################################################################################
