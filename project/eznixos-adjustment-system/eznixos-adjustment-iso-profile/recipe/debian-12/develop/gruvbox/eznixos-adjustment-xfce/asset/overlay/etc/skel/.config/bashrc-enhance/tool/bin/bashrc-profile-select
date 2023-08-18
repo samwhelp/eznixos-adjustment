@@ -85,7 +85,7 @@ main_menu_factory () {
 
 menu_content () {
 
-	local profile_dir_path="${THE_MASTER_PROFILE_DIR_PATH}"
+	local profile_dir_path="${THE_MASTER_ASSET_PROFILE_DIR_PATH}"
 
 	ls -1 "${profile_dir_path}"
 
@@ -161,7 +161,7 @@ mod_menu_applet_start () {
 
 
 
-	local profile_dir_path="${THE_MASTER_PROFILE_DIR_PATH}"
+	local profile_dir_path="${THE_MASTER_ASSET_PROFILE_DIR_PATH}"
 
 	local selected_profile_dir_path="${profile_dir_path}/${selected}"
 
@@ -199,7 +199,7 @@ mod_menu_applet_start () {
 mod_bashrc_profile_set () {
 
 	local source_dir_path="${1}"
-	local target_dir_path="${THE_MASTER_PORT_DIR_PATH}"
+	local target_dir_path="${THE_MASTER_ASSET_PORT_DIR_PATH}"
 
 
 	sys_bashrc_profile_set "${source_dir_path}" "${target_dir_path}"

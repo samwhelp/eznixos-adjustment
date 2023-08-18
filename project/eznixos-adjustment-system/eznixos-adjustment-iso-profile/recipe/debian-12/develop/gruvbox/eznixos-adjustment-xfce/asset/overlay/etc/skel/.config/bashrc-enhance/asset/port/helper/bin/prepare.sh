@@ -35,7 +35,7 @@ THE_INIT_DIR_PATH="${THE_BASE_DIR_PATH}/../ext"
 
 mod_prepare () {
 
-	util_error_echo 'mod_prepare'
+	echo 'mod_prepare'
 
 	mod_main_signal_bind
 
