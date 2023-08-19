@@ -72,7 +72,7 @@ set -o ignoreeof
 ##
 
 ##
-## Load ~/.bashrc.debian.bash
+## Load: ~/.bashrc.debian.bash
 ##
 
 [ -f ~/.bashrc.debian.bash ] && . ~/.bashrc.debian.bash
@@ -132,7 +132,7 @@ PS1='┌─────\n│ \u@\H [\t] (\w)\n│ '
 ##
 
 ##
-## Load ~/.config/bashrc-enhance/port/main.sh
+## Load: ~/.config/bashrc-enhance/port/main.sh
 ##
 
 __BASHRC_ENHANCE_DIR_PATH__="${HOME}/.config/bashrc-enhance"
