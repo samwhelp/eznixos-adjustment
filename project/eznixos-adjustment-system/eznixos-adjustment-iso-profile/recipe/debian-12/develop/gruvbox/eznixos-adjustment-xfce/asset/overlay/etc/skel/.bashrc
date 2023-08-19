@@ -137,7 +137,7 @@ PS1='┌─────\n│ \u@\H [\t] (\w)\n│ '
 
 __BASHRC_ENHANCE_DIR_PATH__="${HOME}/.config/bashrc-enhance"
 
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/port/main.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/port/main.sh"
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/main.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/main.sh"
 
 ##
 ### Tail: bashrc-enhance
