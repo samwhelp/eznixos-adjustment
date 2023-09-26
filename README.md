@@ -76,7 +76,7 @@
 
 | en_us | zh_tw |
 | --- | --- |
-| [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/adjustment-iso-profile-kde-plasma-neonyt/tree/iso-profile-en_us) | [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/adjustment-iso-profile-kde-plasma-neonyt/tree/iso-profile-zh_tw) |
+| [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-neonyt/tree/iso-profile-en_us) | [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-neonyt/tree/iso-profile-zh_tw) |
 
 
 
