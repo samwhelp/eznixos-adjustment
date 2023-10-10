@@ -58,7 +58,7 @@
 
 | en_us | zh_tw |
 | --- | --- |
-| [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-gruvbox/tree/iso-profile-en_us) | [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-gruvbox/tree/iso-profile-zh_tw) |
+| [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-gruvbox/tree/main/debian-12/locale/en_us/eznixos-adjustment-kde-plasma) | [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-gruvbox/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-kde-plasma) |
 
 
 ### Graphite
@@ -67,7 +67,17 @@
 
 | en_us | zh_tw |
 | --- | --- |
-| [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-graphite/tree/iso-profile-en_us) | [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-graphite/tree/iso-profile-zh_tw) |
+| [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-graphite/tree/main/locale/en_us/eznixos-adjustment-kde-plasma) | [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-graphite/tree/iso-profile-zh_tw) |
+
+
+### Layan
+
+* [adjustment-iso-profile-kde-plasma-layan](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-layan)
+
+| en_us | zh_tw |
+| --- | --- |
+| [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-layan/tree/main/debian-12/locale/en_us/eznixos-adjustment-kde-plasma) | [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-layan/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-kde-plasma) |
+| [eznixos-adjustment-kde-plasma-light](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-layan/tree/main/debian-12/locale/en_us/eznixos-adjustment-kde-plasma-light) | [eznixos-adjustment-kde-plasma-light](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-layan/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-kde-plasma-light) |
 
 
 ### Neonyt
@@ -77,6 +87,3 @@
 | en_us | zh_tw |
 | --- | --- |
 | [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-neonyt/tree/iso-profile-en_us) | [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-neonyt/tree/iso-profile-zh_tw) |
-
-
-
