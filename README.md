@@ -63,7 +63,7 @@
 
 | en_us |
 | --- |
-| [eznixos-adjustment-kde-plasma](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-graphite/tree/main/debian-12/locale/en_us/eznixos-adjustment-kde-plasma) |
+| [kde-plasma-graphite](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-graphite/tree/main/debian-12/locale/en_us/eznixos-adjustment-kde-plasma) |
 
 
 ### Layan
