@@ -54,7 +54,7 @@
 
 ### Gruvbox
 
-* [Eznixos Adjustment / Iso Profile / Kde Plasma / Gruvbox](https://samwhelp.github.io/eznixos-adjustment-iso-profile-kde-plasma-gruvbox/)
+* [EznixOS Adjustment / Iso Profile / Kde Plasma / Gruvbox](https://samwhelp.github.io/eznixos-adjustment-iso-profile-kde-plasma-gruvbox/)
 
 | en_us | zh_tw |
 | --- | --- |
@@ -63,7 +63,7 @@
 
 ### Graphite
 
-* [Eznixos Adjustment / Iso Profile / Kde Plasma / Graphite](https://samwhelp.github.io/eznixos-adjustment-iso-profile-kde-plasma-graphite/)
+* [EznixOS Adjustment / Iso Profile / Kde Plasma / Graphite](https://samwhelp.github.io/eznixos-adjustment-iso-profile-kde-plasma-graphite/)
 
 | en_us |
 | --- |
@@ -72,7 +72,7 @@
 
 ### Layan
 
-* [Eznixos Adjustment / Iso Profile / Kde Plasma / Layan](https://samwhelp.github.io/eznixos-adjustment-iso-profile-kde-plasma-layan/)
+* [EznixOS Adjustment / Iso Profile / Kde Plasma / Layan](https://samwhelp.github.io/eznixos-adjustment-iso-profile-kde-plasma-layan/)
 
 | en_us | zh_tw |
 | --- | --- |
@@ -82,7 +82,7 @@
 
 ### Orchis
 
-* [Eznixos Adjustment / Iso Profile / Kde Plasma / Orchis](https://samwhelp.github.io/eznixos-adjustment-iso-profile-kde-plasma-orchis/)
+* [EznixOS Adjustment / Iso Profile / Kde Plasma / Orchis](https://samwhelp.github.io/eznixos-adjustment-iso-profile-kde-plasma-orchis/)
 
 | en_us | zh_tw |
 | --- | --- |
@@ -92,7 +92,7 @@
 
 ### Neonyt
 
-* [Eznixos Adjustment / Iso Profile / Kde Plasma / Neonyt](https://samwhelp.github.io/eznixos-adjustment-iso-profile-kde-plasma-neonyt/)
+* [EznixOS Adjustment / Iso Profile / Kde Plasma / Neonyt](https://samwhelp.github.io/eznixos-adjustment-iso-profile-kde-plasma-neonyt/)
 
 | en_us | zh_tw |
 | --- | --- |
