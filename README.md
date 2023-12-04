@@ -143,11 +143,55 @@
 
 ### Graphite-Catppuccin
 
-* [EznixOS Adjustment / Iso Profile / Xfce / Graphite-Catppuccin](https://samwhelp.github.io/eznixos-adjustment-iso-profile-graphite-catppuccin-greybird/)
+* [EznixOS Adjustment / Iso Profile / Xfce / Graphite-Catppuccin](https://samwhelp.github.io/eznixos-adjustment-iso-profile-xfce-graphite-catppuccin/)
 
 | en_us | zh_tw |
 | --- | --- |
-| [graphite-catppuccin-greybird](https://github.com/samwhelp/eznixos-adjustment-iso-profile-graphite-catppuccin-greybird/tree/main/debian-12/locale/en_us/eznixos-adjustment-graphite-catppuccin) | [graphite-catppuccin-greybird](https://github.com/samwhelp/eznixos-adjustment-iso-profile-graphite-catppuccin-greybird/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-graphite-catppuccin) |
+| [xfce-graphite-catppuccin](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-graphite-catppuccin/tree/main/debian-12/locale/en_us/eznixos-adjustment-xfce) | [xfce-graphite-catppuccin](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-graphite-catppuccin/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-xfce) |
+
+### Graphite-Tokyonight
+
+* [EznixOS Adjustment / Iso Profile / Xfce / Graphite-Tokyonight](https://samwhelp.github.io/eznixos-adjustment-iso-profile-xfce-graphite-tokyonight/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [xfce-graphite-tokyonight](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-graphite-tokyonight/tree/main/debian-12/locale/en_us/eznixos-adjustment-xfce) | [xfce-graphite-tokyonight](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-graphite-tokyonight/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-xfce) |
+
+
+### Graphite-Kanagawa
+
+* [EznixOS Adjustment / Iso Profile / Xfce / Graphite-Kanagawa](https://samwhelp.github.io/eznixos-adjustment-iso-profile-xfce-graphite-kanagawa/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [xfce-graphite-kanagawa](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-graphite-kanagawa/tree/main/debian-12/locale/en_us/eznixos-adjustment-xfce) | [xfce-graphite-kanagawa](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-graphite-kanagawa/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-xfce) |
+
+
+### Graphite-Rose-Pine
+
+* [EznixOS Adjustment / Iso Profile / Xfce / Graphite-Rose-Pine](https://samwhelp.github.io/eznixos-adjustment-iso-profile-xfce-graphite-rose-pine/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [xfce-graphite-rose-pine](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-graphite-rose-pine/tree/main/debian-12/locale/en_us/eznixos-adjustment-xfce) | [xfce-graphite-rose-pine](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-graphite-rose-pine/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-xfce) |
+
+
+### Graphite-Everforest
+
+* [EznixOS Adjustment / Iso Profile / Xfce / Graphite-Everforest](https://samwhelp.github.io/eznixos-adjustment-iso-profile-xfce-graphite-everforest/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [xfce-graphite-everforest](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-graphite-everforest/tree/main/debian-12/locale/en_us/eznixos-adjustment-xfce) | [xfce-graphite-everforest](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-graphite-everforest/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-xfce) |
+
+
+### Graphite-Gruvbox
+
+* [EznixOS Adjustment / Iso Profile / Xfce / Graphite-Gruvbox](https://samwhelp.github.io/eznixos-adjustment-iso-profile-xfce-graphite-gruvbox/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [xfce-graphite-gruvbox](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-graphite-gruvbox/tree/main/debian-12/locale/en_us/eznixos-adjustment-xfce) | [xfce-graphite-gruvbox](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-graphite-gruvbox/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-xfce) |
 
 
 
