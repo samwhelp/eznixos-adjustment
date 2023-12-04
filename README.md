@@ -114,6 +114,24 @@
 | [xfce-greybird](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-greybird/tree/main/debian-12/locale/en_us/eznixos-adjustment-xfce) | [xfce-greybird](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-greybird/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-xfce) |
 
 
+### Vimix
+
+* [EznixOS Adjustment / Iso Profile / Xfce / Vimix](https://samwhelp.github.io/eznixos-adjustment-iso-profile-xfce-vimix/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [xfce-vimix](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-vimix/tree/main/debian-12/locale/en_us/eznixos-adjustment-xfce) | [xfce-vimix](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-vimix/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-xfce) |
+
+
+### Graphite-Catppuccin
+
+* [EznixOS Adjustment / Iso Profile / Xfce / Graphite-Catppuccin](https://samwhelp.github.io/eznixos-adjustment-iso-profile-graphite-catppuccin-greybird/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [graphite-catppuccin-greybird](https://github.com/samwhelp/eznixos-adjustment-iso-profile-graphite-catppuccin-greybird/tree/main/debian-12/locale/en_us/eznixos-adjustment-graphite-catppuccin) | [graphite-catppuccin-greybird](https://github.com/samwhelp/eznixos-adjustment-iso-profile-graphite-catppuccin-greybird/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-graphite-catppuccin) |
+
+
 
 
 ## EznixOS / ISO Build System / Mate
@@ -126,3 +144,21 @@
 | en_us | zh_tw |
 | --- | --- |
 | [mate-greybird](https://github.com/samwhelp/eznixos-adjustment-iso-profile-mate-greybird/tree/main/debian-12/locale/en_us/eznixos-adjustment-mate) | [mate-greybird](https://github.com/samwhelp/eznixos-adjustment-iso-profile-mate-greybird/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-mate) |
+
+
+### Vimix
+
+* [EznixOS Adjustment / Iso Profile / Mate / Vimix](https://samwhelp.github.io/eznixos-adjustment-iso-profile-mate-vimix/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [mate-vimix](https://github.com/samwhelp/eznixos-adjustment-iso-profile-mate-vimix/tree/main/debian-12/locale/en_us/eznixos-adjustment-mate) | [mate-vimix](https://github.com/samwhelp/eznixos-adjustment-iso-profile-mate-vimix/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-mate) |
+
+
+### Graphite-Catppuccin
+
+* [EznixOS Adjustment / Iso Profile / Mate / Graphite-Catppuccin](https://samwhelp.github.io/eznixos-adjustment-iso-profile-mate-graphite-catppuccin/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [mate-graphite-catppuccin](https://github.com/samwhelp/eznixos-adjustment-iso-profile-mate-graphite-catppuccin/tree/main/debian-12/locale/en_us/eznixos-adjustment-mate) | [mate-graphite-catppuccin](https://github.com/samwhelp/eznixos-adjustment-iso-profile-mate-graphite-catppuccin/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-mate) |
