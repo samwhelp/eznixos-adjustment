@@ -49,7 +49,7 @@
 
 
 
-## EznixOS / ISO Build System / KDE
+## EznixOS / ISO Build System / Kde Plasma
 
 
 ### Gruvbox
