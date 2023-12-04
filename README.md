@@ -123,6 +123,24 @@
 | [xfce-vimix](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-vimix/tree/main/debian-12/locale/en_us/eznixos-adjustment-xfce) | [xfce-vimix](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-vimix/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-xfce) |
 
 
+### Obsidian
+
+* [EznixOS Adjustment / Iso Profile / Xfce / Obsidian](https://samwhelp.github.io/eznixos-adjustment-iso-profile-xfce-obsidian/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [xfce-obsidian](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-obsidian/tree/main/debian-12/locale/en_us/eznixos-adjustment-xfce) | [xfce-obsidian](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-obsidian/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-xfce) |
+
+
+### Black-Frost
+
+* [EznixOS Adjustment / Iso Profile / Xfce / Black-Frost](https://samwhelp.github.io/eznixos-adjustment-iso-profile-xfce-black-frost/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [xfce-black-frost](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-black-frost/tree/main/debian-12/locale/en_us/eznixos-adjustment-xfce) | [xfce-black-frost](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-black-frost/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-xfce) |
+
+
 ### Graphite-Catppuccin
 
 * [EznixOS Adjustment / Iso Profile / Xfce / Graphite-Catppuccin](https://samwhelp.github.io/eznixos-adjustment-iso-profile-graphite-catppuccin-greybird/)
