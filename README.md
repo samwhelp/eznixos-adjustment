@@ -97,3 +97,32 @@
 | en_us | zh_tw |
 | --- | --- |
 | [kde-plasma-neonyt](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-neonyt/tree/main/debian-12/locale/en_us/eznixos-adjustment-kde-plasma) | [kde-plasma-neonyt](https://github.com/samwhelp/eznixos-adjustment-iso-profile-kde-plasma-neonyt/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-kde-plasma) |
+
+
+
+
+
+## EznixOS / ISO Build System / Xfce
+
+
+### Greybird
+
+* [EznixOS Adjustment / Iso Profile / Xfce / Greybird](https://samwhelp.github.io/eznixos-adjustment-iso-profile-xfce-greybird/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [xfce-greybird](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-greybird/tree/main/debian-12/locale/en_us/eznixos-adjustment-xfce) | [xfce-greybird](https://github.com/samwhelp/eznixos-adjustment-iso-profile-xfce-greybird/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-xfce) |
+
+
+
+
+## EznixOS / ISO Build System / Mate
+
+
+### Greybird
+
+* [EznixOS Adjustment / Iso Profile / Mate / Greybird](https://samwhelp.github.io/eznixos-adjustment-iso-profile-mate-greybird/)
+
+| en_us | zh_tw |
+| --- | --- |
+| [mate-greybird](https://github.com/samwhelp/eznixos-adjustment-iso-profile-mate-greybird/tree/main/debian-12/locale/en_us/eznixos-adjustment-mate) | [mate-greybird](https://github.com/samwhelp/eznixos-adjustment-iso-profile-mate-greybird/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-mate) |
