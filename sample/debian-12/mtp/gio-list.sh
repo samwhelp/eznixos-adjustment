@@ -1,0 +1,2 @@
+gio mount -l
+
