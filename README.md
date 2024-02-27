@@ -42,7 +42,7 @@
 
 | en_us | zh_tw |
 | --- | --- |
-| [eznixos-adjustment-lxqt-with-openbox]https://github.com/samwhelp/eznixos-adjustment-iso-profile-start-lxqt/tree/main/debian-12/locale/en_us/eznixos-adjustment-lxqt-with-openbox) | eznixos-adjustment-lxqt-with-openbox |
+| [eznixos-adjustment-lxqt-with-openbox](https://github.com/samwhelp/eznixos-adjustment-iso-profile-start-lxqt/tree/main/debian-12/locale/en_us/eznixos-adjustment-lxqt-with-openbox) | eznixos-adjustment-lxqt-with-openbox |
 
 
 ### Prototype
