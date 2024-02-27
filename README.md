@@ -38,6 +38,13 @@
 | [eznixos-adjustment-gnome-shell](https://github.com/samwhelp/eznixos-adjustment-iso-profile-start/tree/en_us-gnome-shell) | [eznixos-adjustment-gnome-shell](https://github.com/samwhelp/eznixos-adjustment-iso-profile-start/tree/zh_tw-gnome-shell) |
 
 
+* [eznixos-adjustment-iso-profile-start-lxqt](https://github.com/samwhelp/eznixos-adjustment-iso-profile-start-lxqt)
+
+| en_us | zh_tw |
+| --- | --- |
+| [eznixos-adjustment-lxqt-with-openbox]https://github.com/samwhelp/eznixos-adjustment-iso-profile-start-lxqt/tree/main/debian-12/locale/en_us/eznixos-adjustment-lxqt-with-openbox) | eznixos-adjustment-lxqt-with-openbox |
+
+
 ### Prototype
 
 * [eznixos-adjustment-iso-profile-prototype](https://github.com/samwhelp/eznixos-adjustment-iso-profile-prototype)
