@@ -262,9 +262,10 @@
 
 | Link | GitHub |
 | ---- | ------ |
+| [Ezarcher Adjustment](https://samwhelp.github.io/ezarcher-adjustment/) | [GitHub](https://github.com/samwhelp/ezarcher-adjustment) |
+| [Pardus Adjustment](https://samwhelp.github.io/pardus-adjustment/) | [GitHub](https://github.com/samwhelp/pardus-adjustment) |
 | [Debian Adjustment](https://samwhelp.github.io/debian-adjustment/) | [GitHub](https://github.com/samwhelp/debian-adjustment) |
 | [MxLinux Adjustment](https://samwhelp.github.io/mxlinux-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-adjustment) |
-| [EznixOS Adjustment](https://samwhelp.github.io/eznixos-adjustment/) | [GitHub](https://github.com/samwhelp/eznixos-adjustment) |
 | [Ubuntu Adjustment](https://samwhelp.github.io/ubutu-adjustment/) | [GitHub](https://github.com/samwhelp/ubutu-adjustment) |
 | [LinuxMint Adjustment](https://samwhelp.github.io/linuxmint-adjustment/) | [GitHub](https://github.com/samwhelp/linuxmint-adjustment) |
 | [Lmde Adjustment](https://samwhelp.github.io/lmde-adjustment/) | [GitHub](https://github.com/samwhelp/lmde-adjustment) |
