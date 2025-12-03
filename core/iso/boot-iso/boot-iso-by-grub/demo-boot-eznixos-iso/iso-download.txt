@@ -1,0 +1,3 @@
+https://sourceforge.net/projects/eznixos/files/EznixOS13/eznixOS13X-251117.iso
+https://sourceforge.net/projects/eznixos/files/EznixOS13/eznixOS13K-251117.iso
+https://sourceforge.net/projects/eznixos/files/EznixOS13/Custom/eznixOS13-251117.iso
