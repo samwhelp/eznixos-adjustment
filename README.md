@@ -2,7 +2,46 @@
 
 # eznixos-adjustment
 
+
+
+
+## Home
+
+| Link | GitHub |
+| ---- | ------ |
 | [EznixOS Adjustment](https://samwhelp.github.io/eznixos-adjustment/) | [GitHub](https://github.com/samwhelp/eznixos-adjustment) |
+| [EznixOS Note](https://samwhelp.github.io/note-about-eznixos/) | [GitHub](https://github.com/samwhelp/note-about-eznixos) |
+
+
+
+
+## Subject
+
+* [Script](#script)
+* [EznixOS Respin](#eznixos-respin)
+* [Link](#link)
+
+
+
+
+## Script
+
+| Script |
+| ------ |
+| [EznixOS Config](https://github.com/samwhelp/eznixos-adjustment/tree/main/prototype/main/) |
+| [Tool Config](https://github.com/samwhelp/eznixos-adjustment/tree/main/prototype/main/tool-config/part) |
+
+
+
+
+## EznixOS Respin
+
+| Link | GitHub |
+| ---- | ------ |
+| [EznixOS Xfce Adjustment](https://samwhelp.github.io/eznixos-xfce-adjustment/) | [GitHub](https://github.com/samwhelp/eznixos-xfce-adjustment) |
+| [EznixOS Kde Plasma Adjustment](https://samwhelp.github.io/eznixos-kde-plasma-adjustment/) | [GitHub](https://github.com/samwhelp/eznixos-kde-plasma-adjustment) |
+
+
 
 
 ## EznixOS / Link
@@ -220,3 +259,28 @@
 | en_us | zh_tw |
 | --- | --- |
 | [mate-graphite-catppuccin](https://github.com/samwhelp/eznixos-adjustment-iso-profile-mate-graphite-catppuccin/tree/main/debian-12/locale/en_us/eznixos-adjustment-mate) | [mate-graphite-catppuccin](https://github.com/samwhelp/eznixos-adjustment-iso-profile-mate-graphite-catppuccin/tree/main/debian-12/locale/zh_tw/eznixos-adjustment-mate) |
+
+
+
+
+## Link
+
+| Link | GitHub |
+| ---- | ------ |
+| [Debian Adjustment](https://samwhelp.github.io/debian-adjustment/) | [GitHub](https://github.com/samwhelp/debian-adjustment) |
+| [MxLinux Adjustment](https://samwhelp.github.io/malinux-adjustment/) | [GitHub](https://github.com/samwhelp/malinux-adjustment) |
+| [EznixOS Adjustment](https://samwhelp.github.io/eznixos-adjustment/) | [GitHub](https://github.com/samwhelp/eznixos-adjustment) |
+| [Ubuntu Adjustment](https://samwhelp.github.io/ubutu-adjustment/) | [GitHub](https://github.com/samwhelp/ubutu-adjustment) |
+| [LinuxMint Adjustment](https://samwhelp.github.io/linuxmint-adjustment/) | [GitHub](https://github.com/samwhelp/linuxmint-adjustment) |
+| [Lmde Adjustment](https://samwhelp.github.io/lmde-adjustment/) | [GitHub](https://github.com/samwhelp/lmde-adjustment) |
+| [Fedora Adjustment](https://samwhelp.github.io/fedora-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-adjustment) |
+| [Archlinux Adjustment](https://samwhelp.github.io/archlinux-adjustment/) | [GitHub](https://github.com/samwhelp/archlinux-adjustment) |
+| [Manjaro Adjustment](https://samwhelp.github.io/manjaro-adjustment/) | [GitHub](https://github.com/samwhelp/manjaro-adjustment) |
+| [Solus Adjustment](https://samwhelp.github.io/solus-adjustment/) | [GitHub](https://github.com/samwhelp/solus-adjustment) |
+
+
+
+
+## Samwhelp
+
+* [GitHub](https://github.com/samwhelp)
